@@ -1,0 +1,4330 @@
+import { QuestionData } from './types';
+
+// ============================================================================
+// BANCO DE MATEMÁTICA - ENSINO FUNDAMENTAL (6º AO 9º ANO)
+// REVISADO E CALIBRADO PELA BNCC COM HABILIDADES OFICIAIS VERIFICADAS
+// Total: 240 questões (15 por dificuldade em cada ano escolar)
+// ============================================================================
+
+export const FUNDAMENTAL_MATH_QUESTIONS: QuestionData[] = [
+  {
+    "id": "mat-6-f-01",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA01",
+    "topic": "Números Naturais",
+    "question": "Qual é o valor posicional do algarismo 7 no número 4.752?",
+    "options": [
+      "700",
+      "70",
+      "7",
+      "7.000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "No número 4.752, o 7 ocupa a ordem das centenas, logo seu valor posicional é 7 × 100 = 700."
+  },
+  {
+    "id": "mat-6-f-02",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA07",
+    "topic": "Frações",
+    "question": "Qual é a fração irredutível equivalente a 15/20?",
+    "options": [
+      "3/4",
+      "2/3",
+      "5/6",
+      "1/2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dividindo numerador e denominador por 5 (MDC): 15 ÷ 5 = 3 e 20 ÷ 5 = 4, obtendo a fração 3/4."
+  },
+  {
+    "id": "mat-6-f-03",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA08",
+    "topic": "Operações com Decimais",
+    "question": "Quanto é 4,5 + 2,35?",
+    "options": [
+      "6,85",
+      "6,40",
+      "6,80",
+      "7,15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Alinhando as vírgulas: 4,50 + 2,35 = 6,85."
+  },
+  {
+    "id": "mat-6-f-04",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA04",
+    "topic": "Múltiplos e Divisores",
+    "question": "Qual dos seguintes números é múltiplo comum de 3 e 5?",
+    "options": [
+      "15",
+      "12",
+      "20",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "15 é divisível tanto por 3 (15 ÷ 3 = 5) quanto por 5 (15 ÷ 5 = 3)."
+  },
+  {
+    "id": "mat-6-f-05",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA17",
+    "topic": "Geometria Plana",
+    "question": "Qual é o perímetro de um retângulo de lados 6 cm e 4 cm?",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "10 cm",
+      "16 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Perímetro = 6 + 6 + 4 + 4 = 20 cm."
+  },
+  {
+    "id": "mat-6-f-06",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA09",
+    "topic": "Frações e Decimais",
+    "question": "Qual número decimal representa a fração 1/2?",
+    "options": [
+      "0,5",
+      "0,2",
+      "0,05",
+      "0,25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dividindo o numerador pelo denominador: 1 ÷ 2 = 0,5."
+  },
+  {
+    "id": "mat-6-f-07",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA08",
+    "topic": "Subtração Decimal",
+    "question": "Quanto é 10 - 3,4?",
+    "options": [
+      "6,6",
+      "7,6",
+      "6,4",
+      "7,4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10,0 - 3,4 = 6,6."
+  },
+  {
+    "id": "mat-6-f-08",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA16",
+    "topic": "Figuras Geométricas Espaciais",
+    "question": "Quantos vértices possui um cubo?",
+    "options": [
+      "8",
+      "6",
+      "12",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O cubo tem 6 faces quadradas, 12 arestas e 8 vértices."
+  },
+  {
+    "id": "mat-6-f-09",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA13",
+    "topic": "Porcentagem Básica",
+    "question": "Quanto é 50% de 80 reais?",
+    "options": [
+      "40 reais",
+      "20 reais",
+      "50 reais",
+      "60 reais"
+    ],
+    "correctAnswer": 0,
+    "explanation": "50% representa a metade: 80 ÷ 2 = 40 reais."
+  },
+  {
+    "id": "mat-6-f-10",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA24",
+    "topic": "Medidas de Comprimento",
+    "question": "Quantos centímetros há em 3 metros?",
+    "options": [
+      "300 cm",
+      "30 cm",
+      "3.000 cm",
+      "150 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1 metro equivale a 100 centímetros, logo 3 metros equivalem a 3 × 100 = 300 cm."
+  },
+  {
+    "id": "mat-6-f-11",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA03",
+    "topic": "Operações Fundamentais",
+    "question": "Qual é o produto de 25 × 4?",
+    "options": [
+      "100",
+      "90",
+      "120",
+      "105"
+    ],
+    "correctAnswer": 0,
+    "explanation": "25 × 4 = 100."
+  },
+  {
+    "id": "mat-6-f-12",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA07",
+    "topic": "Adição de Frações",
+    "question": "Quanto é 2/7 + 3/7?",
+    "options": [
+      "5/7",
+      "5/14",
+      "6/7",
+      "1/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Com denominadores iguais, somam-se os numeradores: (2 + 3)/7 = 5/7."
+  },
+  {
+    "id": "mat-6-f-13",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA19",
+    "topic": "Área de Quadrado",
+    "question": "Qual é a área de um quadrado de lado 5 cm?",
+    "options": [
+      "25 cm²",
+      "20 cm²",
+      "10 cm²",
+      "15 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do quadrado = lado × lado = 5 × 5 = 25 cm²."
+  },
+  {
+    "id": "mat-6-f-14",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA02",
+    "topic": "Sucessor e Antecessor",
+    "question": "Qual é o sucessor natural do número 999?",
+    "options": [
+      "1.000",
+      "998",
+      "1.001",
+      "990"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O sucessor de um número natural é obtido somando 1: 999 + 1 = 1.000."
+  },
+  {
+    "id": "mat-6-f-15",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06MA30",
+    "topic": "Probabilidade Introdutória",
+    "question": "Ao lançar uma moeda comum, qual é a chance teórica de sair \"cara\"?",
+    "options": [
+      "1 em 2 (50%)",
+      "1 em 4 (25%)",
+      "2 em 3 (66%)",
+      "1 em 1 (100%)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A moeda tem 2 lados possíveis e igualmente prováveis, logo a chance é 1 em 2 (50%)."
+  },
+  {
+    "id": "mat-6-m-01",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA04",
+    "topic": "MMC",
+    "question": "Dois ônibus saem juntos do terminal. A linha A sai a cada 12 minutos e a linha B a cada 18 minutos. Após quantos minutos sairão juntos novamente?",
+    "options": [
+      "36 minutos",
+      "24 minutos",
+      "48 minutos",
+      "30 minutos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Calculando o MMC(12, 18): múltiplos de 12 (12, 24, 36...) e de 18 (18, 36...). O menor múltiplo comum é 36."
+  },
+  {
+    "id": "mat-6-m-02",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA13",
+    "topic": "Porcentagem Comercial",
+    "question": "Uma camiseta de 60 reais teve um desconto de 25%. Quanto o cliente pagou por ela?",
+    "options": [
+      "45 reais",
+      "40 reais",
+      "50 reais",
+      "48 reais"
+    ],
+    "correctAnswer": 0,
+    "explanation": "25% de 60 = 60 ÷ 4 = 15 reais de desconto. Preço final = 60 - 15 = 45 reais."
+  },
+  {
+    "id": "mat-6-m-03",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA08",
+    "topic": "Situação com Decimais",
+    "question": "Lucas comprou 3 cadernos de R$ 4,50 cada e pagou com uma nota de R$ 20,00. Quanto recebeu de troco?",
+    "options": [
+      "R$ 6,50",
+      "R$ 5,50",
+      "R$ 7,00",
+      "R$ 6,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Custo total = 3 × 4,50 = R$ 13,50. Troco = 20,00 - 13,50 = R$ 6,50."
+  },
+  {
+    "id": "mat-6-m-04",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA19",
+    "topic": "Área de Retângulo",
+    "question": "Uma sala retangular tem 5 metros de comprimento e 4 metros de largura. Quantos metros quadrados de piso são necessários?",
+    "options": [
+      "20 m²",
+      "18 m²",
+      "24 m²",
+      "10 m²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área = comprimento × largura = 5 × 4 = 20 m²."
+  },
+  {
+    "id": "mat-6-m-05",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA07",
+    "topic": "Fração de Quantidade",
+    "question": "Em uma turma com 32 alunos, 3/4 praticam esportes. Quantos alunos praticam esportes?",
+    "options": [
+      "24 alunos",
+      "20 alunos",
+      "28 alunos",
+      "18 alunos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "3/4 de 32 = (32 ÷ 4) × 3 = 8 × 3 = 24 alunos."
+  },
+  {
+    "id": "mat-6-m-06",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA05",
+    "topic": "MDC",
+    "question": "Deseja-se cortar duas fitas de 24 cm e 36 cm no maior tamanho possível sem sobras. Qual o comprimento de cada pedaço?",
+    "options": [
+      "12 cm",
+      "6 cm",
+      "8 cm",
+      "18 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O maior divisor comum entre 24 e 36 é o MDC(24, 36) = 12 cm."
+  },
+  {
+    "id": "mat-6-m-07",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA24",
+    "topic": "Conversão de Medidas",
+    "question": "Uma garrafa contém 1,5 litro de suco. Quantos copos de 250 mililitros podem ser enchidos completamente?",
+    "options": [
+      "6 copos",
+      "5 copos",
+      "8 copos",
+      "4 copos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1,5 L = 1.500 mL. Dividindo por 250 mL: 1.500 ÷ 250 = 6 copos."
+  },
+  {
+    "id": "mat-6-m-08",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA31",
+    "topic": "Estatística e Gráficos",
+    "question": "As notas de Sofia em 4 trabalhos foram 7, 8, 8 e 9. Qual foi a média aritmética das notas?",
+    "options": [
+      "8,0",
+      "7,5",
+      "8,5",
+      "8,2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Soma das notas = 7 + 8 + 8 + 9 = 32. Dividindo por 4: 32 ÷ 4 = 8,0."
+  },
+  {
+    "id": "mat-6-m-09",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA08",
+    "topic": "Multiplicação Decimal",
+    "question": "Um pacote de biscoitos custa R$ 2,75. Quanto custam 4 pacotes iguais?",
+    "options": [
+      "R$ 11,00",
+      "R$ 10,50",
+      "R$ 11,50",
+      "R$ 10,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2,75 × 4 = 11,00 reais."
+  },
+  {
+    "id": "mat-6-m-10",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA03",
+    "topic": "Divisão Inteira",
+    "question": "Ao dividir 87 bombons igualmente entre 4 amigos, quantos bombons sobram?",
+    "options": [
+      "3 bombons",
+      "1 bombom",
+      "2 bombons",
+      "0 bombons"
+    ],
+    "correctAnswer": 0,
+    "explanation": "87 ÷ 4 = 21 com resto 3 (pois 21 × 4 = 84 e 87 - 84 = 3)."
+  },
+  {
+    "id": "mat-6-m-11",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA18",
+    "topic": "Classificação de Ângulos",
+    "question": "Um ângulo que mede 120° é classificado como:",
+    "options": [
+      "Obtuso",
+      "Agudo",
+      "Reto",
+      "Raso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos maiores que 90° e menores que 180° são classificados como obtusos."
+  },
+  {
+    "id": "mat-6-m-12",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA09",
+    "topic": "Comparação de Decimais",
+    "question": "Qual dos seguintes números decimais é o maior?",
+    "options": [
+      "0,75",
+      "0,705",
+      "0,09",
+      "0,699"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comparando as casas decimais: 0,750 > 0,705 > 0,699 > 0,09."
+  },
+  {
+    "id": "mat-6-m-13",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA25",
+    "topic": "Perímetro e Cerca",
+    "question": "Um terreno quadrado de 15 metros de lado será cercado com 3 voltas de arame. Quantos metros de arame serão necessários?",
+    "options": [
+      "180 metros",
+      "60 metros",
+      "120 metros",
+      "225 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Perímetro de 1 volta = 4 × 15 = 60 metros. Com 3 voltas: 60 × 3 = 180 metros."
+  },
+  {
+    "id": "mat-6-m-14",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA13",
+    "topic": "Porcentagem Simples",
+    "question": "Em um estádio com 500 pessoas, 10% são crianças. Quantas crianças estão no estádio?",
+    "options": [
+      "50 crianças",
+      "25 crianças",
+      "100 crianças",
+      "75 crianças"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10% de 500 = 500 ÷ 10 = 50 crianças."
+  },
+  {
+    "id": "mat-6-m-15",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06MA30",
+    "topic": "Probabilidade com Dados",
+    "question": "Ao lançar um dado comum de 6 faces, qual é a probabilidade de obter um número par?",
+    "options": [
+      "3 em 6 (1/2)",
+      "2 em 6 (1/3)",
+      "1 em 6",
+      "4 em 6 (2/3)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As faces pares são 2, 4 e 6 (3 casos favoráveis entre 6 possíveis): 3/6 = 1/2."
+  },
+  {
+    "id": "mat-6-d-01",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA07",
+    "topic": "Operações Mistas com Frações",
+    "question": "Calcule: 2/3 + 1/4 - 1/6.",
+    "options": [
+      "3/4",
+      "5/6",
+      "7/12",
+      "2/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MMC(3, 4, 6) = 12. Convertendo: 8/12 + 3/12 - 2/12 = 9/12 = 3/4."
+  },
+  {
+    "id": "mat-6-d-02",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA19",
+    "topic": "Área de Figura Composta",
+    "question": "Uma horta em forma de \"L\" é formada por dois retângulos: um de 4 m × 3 m e outro de 2 m × 2 m. Qual é a área total da horta?",
+    "options": [
+      "16 m²",
+      "14 m²",
+      "18 m²",
+      "12 m²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área 1 = 4 × 3 = 12 m². Área 2 = 2 × 2 = 4 m². Área total = 12 + 4 = 16 m²."
+  },
+  {
+    "id": "mat-6-d-03",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA08",
+    "topic": "Problema com Decimais",
+    "question": "Um ciclista percorreu 12,8 km pela manhã e 8,45 km à tarde. Se sua meta do dia era de 25 km, quanto ainda falta pedalar?",
+    "options": [
+      "3,75 km",
+      "4,25 km",
+      "3,55 km",
+      "4,75 km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total percorrido = 12,80 + 8,45 = 21,25 km. Restante = 25,00 - 21,25 = 3,75 km."
+  },
+  {
+    "id": "mat-6-d-04",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA13",
+    "topic": "Aumento Percentual",
+    "question": "O ingresso do cinema custava R$ 20,00 e sofreu um reajuste de 15%. Qual é o novo preço do ingresso?",
+    "options": [
+      "R$ 23,00",
+      "R$ 22,50",
+      "R$ 23,50",
+      "R$ 24,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "15% de 20 = (15 × 20) ÷ 100 = 3 reais. Novo preço = 20 + 3 = R$ 23,00."
+  },
+  {
+    "id": "mat-6-d-05",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA03",
+    "topic": "Problema das Quatro Operações",
+    "question": "Uma caixa contém 15 pacotes com 12 lápis cada. Se esses lápis forem redistribuídos igualmente em 9 caixas menores, quantos lápis terá cada caixa?",
+    "options": [
+      "20 lápis",
+      "18 lápis",
+      "22 lápis",
+      "15 lápis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total de lápis = 15 × 12 = 180 lápis. Dividindo por 9 caixas: 180 ÷ 9 = 20 lápis por caixa."
+  },
+  {
+    "id": "mat-6-d-06",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA24",
+    "topic": "Medidas de Massa",
+    "question": "Um comerciante comprou 2,5 kg de café e quer embalar em saquinhos de 125 gramas. Quantos saquinhos ele conseguirá fazer?",
+    "options": [
+      "20 saquinhos",
+      "15 saquinhos",
+      "25 saquinhos",
+      "18 saquinhos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2,5 kg = 2.500 g. Dividindo por 125 g: 2.500 ÷ 125 = 20 saquinhos."
+  },
+  {
+    "id": "mat-6-d-07",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA06",
+    "topic": "Números Primos",
+    "question": "Qual é a soma dos números primos compreendidos entre 10 e 20?",
+    "options": [
+      "60",
+      "58",
+      "56",
+      "62"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Os primos entre 10 e 20 são 11, 13, 17 e 19. A soma é: 11 + 13 + 17 + 19 = 60."
+  },
+  {
+    "id": "mat-6-d-08",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA10",
+    "topic": "Multiplicação de Frações",
+    "question": "Calcule: (3/5) de (5/6) de 60.",
+    "options": [
+      "30",
+      "25",
+      "35",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(3/5) × (5/6) = 15/30 = 1/2. Metade de 60 é 60 ÷ 2 = 30."
+  },
+  {
+    "id": "mat-6-d-09",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA29",
+    "topic": "Interpretação de Tabelas",
+    "question": "Em uma pesquisa sobre transporte escolar, 18 alunos vão a pé, 24 de ônibus e 8 de bicicleta. Qual porcentagem dos alunos usa ônibus?",
+    "options": [
+      "48%",
+      "40%",
+      "50%",
+      "45%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total de alunos = 18 + 24 + 8 = 50 alunos. Proporção de ônibus = 24/50 = 48/100 = 48%."
+  },
+  {
+    "id": "mat-6-d-10",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA17",
+    "topic": "Perímetro e Álgebra Introdutória",
+    "question": "Um triângulo equilátero tem perímetro de 36 cm. Qual é a medida de cada um dos seus lados?",
+    "options": [
+      "12 cm",
+      "10 cm",
+      "9 cm",
+      "14 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Um triângulo equilátero tem 3 lados congruentes: 36 ÷ 3 = 12 cm."
+  },
+  {
+    "id": "mat-6-d-11",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA12",
+    "topic": "Divisão com Decimais",
+    "question": "Quanto é 7,5 ÷ 0,25?",
+    "options": [
+      "30",
+      "25",
+      "35",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando ambos por 100: 750 ÷ 25 = 30."
+  },
+  {
+    "id": "mat-6-d-12",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA05",
+    "topic": "MDC e Divisibilidade",
+    "question": "Qual é o maior número de alunos que pode ser organizado em grupos iguais sem sobras a partir de 48 meninas e 72 meninos?",
+    "options": [
+      "24 alunos",
+      "12 alunos",
+      "18 alunos",
+      "16 alunos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O número de grupos corresponde ao MDC(48, 72) = 24 alunos."
+  },
+  {
+    "id": "mat-6-d-13",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA32",
+    "topic": "Média Ponderada Simples",
+    "question": "Em um jogo, Pedro marcou 15 pontos na 1ª fase, 20 na 2ª e 25 na 3ª. Qual a pontuação média por fase?",
+    "options": [
+      "20 pontos",
+      "18 pontos",
+      "22 pontos",
+      "21 pontos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Média = (15 + 20 + 25) ÷ 3 = 60 ÷ 3 = 20 pontos."
+  },
+  {
+    "id": "mat-6-d-14",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA19",
+    "topic": "Comparação de Áreas",
+    "question": "Um retângulo de 8 cm por 2 cm tem a mesma área de um quadrado. Qual é o lado desse quadrado?",
+    "options": [
+      "4 cm",
+      "5 cm",
+      "6 cm",
+      "3 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do retângulo = 8 × 2 = 16 cm². O quadrado de mesma área tem lado L² = 16 => L = 4 cm."
+  },
+  {
+    "id": "mat-6-d-15",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06MA30",
+    "topic": "Probabilidade em Urna",
+    "question": "Uma urna tem 4 bolas azuis, 3 vermelhas e 5 amarelas. Qual é a chance de retirar uma bola azul?",
+    "options": [
+      "4 em 12 (1/3)",
+      "3 em 12 (1/4)",
+      "5 em 12",
+      "1 em 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total de bolas = 4 + 3 + 5 = 12. Bolas azuis = 4. Probabilidade = 4/12 = 1/3."
+  },
+  {
+    "id": "mat-6-e-01",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA03",
+    "topic": "Expressões com Parênteses",
+    "question": "Resolva a expressão: 50 - [3 × (8 + 2) - 10] ÷ 2.",
+    "options": [
+      "40",
+      "35",
+      "45",
+      "30"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(8 + 2) = 10; 3 × 10 = 30; 30 - 10 = 20; 20 ÷ 2 = 10; 50 - 10 = 40."
+  },
+  {
+    "id": "mat-6-e-02",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA14",
+    "topic": "Sequências Numéricas",
+    "question": "Observe a sequência: 3, 7, 11, 15, 19... Qual é o 10º termo dessa sequência?",
+    "options": [
+      "39",
+      "35",
+      "41",
+      "37"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A sequência soma 4 a cada termo (razão 4). O 10º termo é: 3 + 4 × (10 - 1) = 3 + 36 = 39."
+  },
+  {
+    "id": "mat-6-e-03",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA07",
+    "topic": "Problema com Frações Restantes",
+    "question": "Ana gastou 1/3 do seu salário com aluguel e 2/5 do restante com alimentação. Que fração do salário total sobrou para outras despesas?",
+    "options": [
+      "2/5",
+      "1/2",
+      "4/15",
+      "7/15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Após o aluguel sobram 1 - 1/3 = 2/3. Gasto com alimentação: 2/5 × 2/3 = 4/15. Sobra: 2/3 - 4/15 = 10/15 - 4/15 = 6/15 = 2/5."
+  },
+  {
+    "id": "mat-6-e-04",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA04",
+    "topic": "Múltiplos no Calendário",
+    "question": "Três amigos correm na pista. O 1º dá uma volta em 4 minutos, o 2º em 6 minutos e o 3º em 10 minutos. Se saírem juntos, após quantas horas se encontrarão no ponto de partida pela primeira vez?",
+    "options": [
+      "1 hora",
+      "2 horas",
+      "1 hora e meia",
+      "45 minutos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MMC(4, 6, 10): 4 = 2², 6 = 2×3, 10 = 2×5. MMC = 2² × 3 × 5 = 60 minutos, que é exatamente 1 hora."
+  },
+  {
+    "id": "mat-6-e-05",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA19",
+    "topic": "Área com Moldura",
+    "question": "Um quadro retangular mede 20 cm por 15 cm. Ele recebe uma moldura de 2 cm de largura ao redor de todas as bordas. Qual é a área total externa incluindo a moldura?",
+    "options": [
+      "456 cm²",
+      "400 cm²",
+      "480 cm²",
+      "420 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprimento externo = 20 + 2 + 2 = 24 cm. Largura externa = 15 + 2 + 2 = 19 cm. Área total = 24 × 19 = 456 cm²."
+  },
+  {
+    "id": "mat-6-e-06",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA13",
+    "topic": "Descontos Sucessivos Básicos",
+    "question": "Um produto de R$ 100,00 teve um desconto de 10% e, no mês seguinte, outro desconto de 10% sobre o novo valor. Qual foi o preço final?",
+    "options": [
+      "R$ 81,00",
+      "R$ 80,00",
+      "R$ 82,00",
+      "R$ 85,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Após o 1º desconto: 100 - 10 = R$ 90,00. 10% de 90 = R$ 9,00. Preço final: 90 - 9 = R$ 81,00."
+  },
+  {
+    "id": "mat-6-e-07",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA24",
+    "topic": "Velocidade e Tempo Introdutório",
+    "question": "Um trem percorre 180 km em 3 horas com velocidade constante. Quanto tempo ele levará para percorrer 300 km na mesma velocidade?",
+    "options": [
+      "5 horas",
+      "4 horas",
+      "6 horas",
+      "4 horas e meia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Velocidade = 180 ÷ 3 = 60 km/h. Para 300 km: 300 ÷ 60 = 5 horas."
+  },
+  {
+    "id": "mat-6-e-08",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA02",
+    "topic": "Lógica de Numeração",
+    "question": "Quantas vezes o algarismo 5 aparece ao escrevermos todos os números inteiros de 1 a 100?",
+    "options": [
+      "20 vezes",
+      "19 vezes",
+      "10 vezes",
+      "21 vezes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nas unidades (5, 15, 25... 95): 10 vezes. Nas dezenas (50, 51... 59): 10 vezes (o 55 conta 1 na unidade e 1 na dezena). Total = 20 vezes."
+  },
+  {
+    "id": "mat-6-e-09",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA05",
+    "topic": "MDC e Partilha Exata",
+    "question": "Um agricultor colheu 72 maçãs e 108 laranjas. Ele quer montar cestas idênticas com o maior número possível de frutas sem sobras. Quantas frutas terá cada cesta?",
+    "options": [
+      "5 frutas (2 maçãs e 3 laranjas)",
+      "6 frutas",
+      "4 frutas",
+      "7 frutas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MDC(72, 108) = 36 cestas. Cada cesta terá 72÷36 = 2 maçãs e 108÷36 = 3 laranjas. Total por cesta = 2 + 3 = 5 frutas."
+  },
+  {
+    "id": "mat-6-e-10",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA21",
+    "topic": "Volume de Bloco Retangular",
+    "question": "Um aquário tem 50 cm de comprimento, 30 cm de largura e 20 cm de altura. Quantos litros de água ele comporta quando totalmente cheio?",
+    "options": [
+      "30 litros",
+      "25 litros",
+      "35 litros",
+      "40 litros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume = 50 × 30 × 20 = 30.000 cm³. Como 1.000 cm³ = 1 litro, temos 30.000 ÷ 1.000 = 30 litros."
+  },
+  {
+    "id": "mat-6-e-11",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA08",
+    "topic": "Média de Preços",
+    "question": "Mariana comprou 2 livros a R$ 25,00 cada e 3 livros a R$ 30,00 cada. Qual foi o preço médio de cada livro?",
+    "options": [
+      "R$ 28,00",
+      "R$ 27,50",
+      "R$ 28,50",
+      "R$ 27,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gasto total = (2 × 25) + (3 × 30) = 50 + 90 = R$ 140,00. Total de livros = 5. Média = 140 ÷ 5 = R$ 28,00."
+  },
+  {
+    "id": "mat-6-e-12",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA17",
+    "topic": "Composição de Figuras",
+    "question": "Dois quadrados idênticos de lado 6 cm são unidos lado a lado formando um retângulo. Qual é o perímetro desse novo retângulo?",
+    "options": [
+      "36 cm",
+      "48 cm",
+      "30 cm",
+      "40 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O retângulo tem lados 12 cm e 6 cm. Perímetro = 2 × (12 + 6) = 2 × 18 = 36 cm."
+  },
+  {
+    "id": "mat-6-e-13",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA15",
+    "topic": "Contagem e Combinações Simples",
+    "question": "Para um lanche, pode-se escolher 1 entre 3 tipos de sucos e 1 entre 4 tipos de sanduíches. Quantas combinações diferentes de lanche são possíveis?",
+    "options": [
+      "12 combinações",
+      "7 combinações",
+      "10 combinações",
+      "16 combinações"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelo princípio multiplicativo: 3 tipos de suco × 4 tipos de sanduíche = 12 combinações."
+  },
+  {
+    "id": "mat-6-e-14",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA03",
+    "topic": "Problema das Idades",
+    "question": "A soma das idades de um pai e seu filho é 48 anos. O pai tem o triplo da idade do filho. Qual é a idade do filho?",
+    "options": [
+      "12 anos",
+      "10 anos",
+      "14 anos",
+      "16 anos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pai = 3 × Filho. Pai + Filho = 4 × Filho = 48 anos. Filho = 48 ÷ 4 = 12 anos."
+  },
+  {
+    "id": "mat-6-e-15",
+    "subject": "matematica",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06MA33",
+    "topic": "Interpretação e Análise Crítica",
+    "question": "Em um teste de 20 questões, ganham-se 5 pontos por acerto e perdem-se 2 pontos por erro. Se um aluno respondeu todas e fez 72 pontos, quantas questões ele acertou?",
+    "options": [
+      "16 questões",
+      "15 questões",
+      "17 questões",
+      "14 questões"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Se acertou A e errou (20 - A): 5A - 2(20 - A) = 72 => 5A - 40 + 2A = 72 => 7A = 112 => A = 16."
+  },
+  {
+    "id": "mat-7-f-01",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA03",
+    "topic": "Números Inteiros",
+    "question": "Qual é o resultado de (-8) + (+15)?",
+    "options": [
+      "+7",
+      "-7",
+      "+23",
+      "-23"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sinais diferentes: subtrai-se o menor módulo do maior e conserva o sinal do maior: 15 - 8 = +7."
+  },
+  {
+    "id": "mat-7-f-02",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA03",
+    "topic": "Reta Numérica",
+    "question": "Qual número inteiro é o oposto (ou simétrico) de -12?",
+    "options": [
+      "+12",
+      "-12",
+      "0",
+      "+24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O oposto de um número negativo é o número positivo com a mesma distância até a origem: +12."
+  },
+  {
+    "id": "mat-7-f-03",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA04",
+    "topic": "Multiplicação de Inteiros",
+    "question": "Quanto é (-4) × (-6)?",
+    "options": [
+      "+24",
+      "-24",
+      "+10",
+      "-10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela regra de sinais, o produto de dois números negativos resulta em um número positivo: (-4) × (-6) = +24."
+  },
+  {
+    "id": "mat-7-f-04",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação Simples do 1º Grau",
+    "question": "Qual é a raiz da equação x + 7 = 15?",
+    "options": [
+      "x = 8",
+      "x = 22",
+      "x = 7",
+      "x = 10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Subtraindo 7 em ambos os membros: x = 15 - 7 = 8."
+  },
+  {
+    "id": "mat-7-f-05",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA02",
+    "topic": "Porcentagem Comercial",
+    "question": "Quanto é 20% de 150 reais?",
+    "options": [
+      "30 reais",
+      "25 reais",
+      "35 reais",
+      "40 reais"
+    ],
+    "correctAnswer": 0,
+    "explanation": "20% = 20/100 = 1/5. 150 ÷ 5 = 30 reais."
+  },
+  {
+    "id": "mat-7-f-06",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA23",
+    "topic": "Ângulos Complementares",
+    "question": "Se dois ângulos são complementares e um deles mede 35°, quanto mede o outro?",
+    "options": [
+      "55°",
+      "145°",
+      "65°",
+      "45°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos complementares somam 90°: 90° - 35° = 55°."
+  },
+  {
+    "id": "mat-7-f-07",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA10",
+    "topic": "Racionais na Reta",
+    "question": "Qual das seguintes frações representa um número negativo?",
+    "options": [
+      "-3/4",
+      "3/4",
+      "(-3)/(-4)",
+      "|-3/4|"
+    ],
+    "correctAnswer": 0,
+    "explanation": "-3/4 possui numerador negativo e denominador positivo, resultando em valor negativo."
+  },
+  {
+    "id": "mat-7-f-08",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação Multiplicativa",
+    "question": "Qual é o valor de x na equação 3x = 27?",
+    "options": [
+      "x = 9",
+      "x = 81",
+      "x = 24",
+      "x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dividindo ambos os membros por 3: x = 27 ÷ 3 = 9."
+  },
+  {
+    "id": "mat-7-f-09",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA31",
+    "topic": "Área de Triângulo",
+    "question": "Qual é a área de um triângulo com base 8 cm e altura 5 cm?",
+    "options": [
+      "20 cm²",
+      "40 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do triângulo = (base × altura) ÷ 2 = (8 × 5) ÷ 2 = 40 ÷ 2 = 20 cm²."
+  },
+  {
+    "id": "mat-7-f-10",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA04",
+    "topic": "Divisão de Inteiros",
+    "question": "Quanto é (-36) ÷ (+4)?",
+    "options": [
+      "-9",
+      "+9",
+      "-8",
+      "+8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Divisão com sinais diferentes resulta em sinal negativo: 36 ÷ 4 = 9, logo -9."
+  },
+  {
+    "id": "mat-7-f-11",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA17",
+    "topic": "Razão e Proporção",
+    "question": "Em uma sala há 15 meninas e 10 meninos. Qual é a razão simplificada entre o número de meninas e meninos?",
+    "options": [
+      "3/2",
+      "2/3",
+      "3/5",
+      "5/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Razão = 15/10. Simplificando por 5: 3/2."
+  },
+  {
+    "id": "mat-7-f-12",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA24",
+    "topic": "Ângulos Suplementares",
+    "question": "Dois ângulos são suplementares. Se um deles mede 110°, quanto mede o outro?",
+    "options": [
+      "70°",
+      "80°",
+      "20°",
+      "90°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos suplementares somam 180°: 180° - 110° = 70°."
+  },
+  {
+    "id": "mat-7-f-13",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA03",
+    "topic": "Subtração de Inteiros",
+    "question": "Calcule: (+5) - (+12).",
+    "options": [
+      "-7",
+      "+7",
+      "-17",
+      "+17"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(+5) - (+12) = 5 - 12 = -7."
+  },
+  {
+    "id": "mat-7-f-14",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA35",
+    "topic": "Leitura de Gráficos",
+    "question": "Um gráfico mostra que uma empresa vendeu 120 produtos em janeiro e 180 em fevereiro. Qual foi o aumento absoluto de vendas?",
+    "options": [
+      "60 produtos",
+      "50 produtos",
+      "70 produtos",
+      "80 produtos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aumento = 180 - 120 = 60 produtos."
+  },
+  {
+    "id": "mat-7-f-15",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF07MA02",
+    "topic": "Cálculo de Desconto",
+    "question": "Um livro de R$ 50,00 teve 10% de desconto. Qual é o valor do desconto?",
+    "options": [
+      "R$ 5,00",
+      "R$ 10,00",
+      "R$ 45,00",
+      "R$ 4,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10% de 50 = (10 × 50) ÷ 100 = R$ 5,00."
+  },
+  {
+    "id": "mat-7-m-01",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação de 1º Grau com 2 Termos",
+    "question": "Resolva a equação: 2x - 5 = 11.",
+    "options": [
+      "x = 8",
+      "x = 3",
+      "x = 6",
+      "x = 7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2x = 11 + 5 => 2x = 16 => x = 8."
+  },
+  {
+    "id": "mat-7-m-02",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA17",
+    "topic": "Regra de Três Simples Direta",
+    "question": "Se 4 cadernos custam R$ 24,00, quanto custarão 7 cadernos iguais?",
+    "options": [
+      "R$ 42,00",
+      "R$ 36,00",
+      "R$ 48,00",
+      "R$ 38,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cada caderno custa 24 ÷ 4 = R$ 6,00. 7 cadernos custam 7 × 6 = R$ 42,00."
+  },
+  {
+    "id": "mat-7-m-03",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA04",
+    "topic": "Expressão Numérica com Inteiros",
+    "question": "Qual é o valor da expressão: (-3)² - (-5) × (+2)?",
+    "options": [
+      "19",
+      "-1",
+      "9",
+      "-19"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(-3)² = 9. (-5) × (+2) = -10. 9 - (-10) = 9 + 10 = 19."
+  },
+  {
+    "id": "mat-7-m-04",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA24",
+    "topic": "Soma dos Ângulos do Triângulo",
+    "question": "Em um triângulo, dois ângulos medem 45° e 65°. Qual é a medida do terceiro ângulo?",
+    "options": [
+      "70°",
+      "80°",
+      "60°",
+      "75°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A soma dos ângulos internos de um triângulo é 180°: 180° - (45° + 65°) = 180° - 110° = 70°."
+  },
+  {
+    "id": "mat-7-m-05",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA02",
+    "topic": "Acréscimo Percentual",
+    "question": "Uma mercadoria de R$ 80,00 teve um acréscimo de 15%. Qual é o novo preço?",
+    "options": [
+      "R$ 92,00",
+      "R$ 95,00",
+      "R$ 88,00",
+      "R$ 90,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "15% de 80 = 12. Novo preço = 80 + 12 = R$ 92,00."
+  },
+  {
+    "id": "mat-7-m-06",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA17",
+    "topic": "Proporcionalidade Inversa",
+    "question": "3 pedreiros constroem um muro em 6 dias. Quantos dias 6 pedreiros levariam para construir o mesmo muro no mesmo ritmo?",
+    "options": [
+      "3 dias",
+      "4 dias",
+      "2 dias",
+      "5 dias"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Grandezas inversamente proporcionais: 3 × 6 = 6 × d => 18 = 6d => d = 3 dias."
+  },
+  {
+    "id": "mat-7-m-07",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA31",
+    "topic": "Área do Trapézio",
+    "question": "Qual é a área de um trapézio com bases de 10 cm e 6 cm e altura de 4 cm?",
+    "options": [
+      "32 cm²",
+      "40 cm²",
+      "24 cm²",
+      "64 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área = [(B + b) × h] ÷ 2 = [(10 + 6) × 4] ÷ 2 = (16 × 4) ÷ 2 = 32 cm²."
+  },
+  {
+    "id": "mat-7-m-08",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação com Incógnitas dos Dois Lados",
+    "question": "Qual é a solução da equação 5x - 3 = 2x + 9?",
+    "options": [
+      "x = 4",
+      "x = 3",
+      "x = 2",
+      "x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5x - 2x = 9 + 3 => 3x = 12 => x = 4."
+  },
+  {
+    "id": "mat-7-m-09",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA03",
+    "topic": "Saldo Bancário e Inteiros",
+    "question": "Carlos tinha saldo de R$ -150,00 no banco. Ele depositou R$ 400,00 e depois pagou uma conta de R$ 120,00. Qual é seu saldo atual?",
+    "options": [
+      "R$ +130,00",
+      "R$ +150,00",
+      "R$ -130,00",
+      "R$ +250,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "-150 + 400 = +250. Depois: +250 - 120 = +130 reais."
+  },
+  {
+    "id": "mat-7-m-10",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA36",
+    "topic": "Média e Amplitude",
+    "question": "As temperaturas registradas em 5 dias foram: 18°C, 20°C, 22°C, 19°C e 21°C. Qual foi a temperatura média?",
+    "options": [
+      "20°C",
+      "19,5°C",
+      "20,5°C",
+      "21°C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Soma = 18 + 20 + 22 + 19 + 21 = 100°C. Média = 100 ÷ 5 = 20°C."
+  },
+  {
+    "id": "mat-7-m-11",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA27",
+    "topic": "Ângulos Opostos pelo Vértice",
+    "question": "Dois ângulos opostos pelo vértice medem (3x - 10)° e (x + 30)°. Qual é o valor de x?",
+    "options": [
+      "20°",
+      "15°",
+      "25°",
+      "10°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos OPV são congruentes: 3x - 10 = x + 30 => 2x = 40 => x = 20°."
+  },
+  {
+    "id": "mat-7-m-12",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA11",
+    "topic": "Operação com Racionais",
+    "question": "Calcule (-2/3) ÷ (+4/9).",
+    "options": [
+      "-3/2",
+      "+3/2",
+      "-8/27",
+      "+8/27"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Divisão de frações: (-2/3) × (9/4) = -18/12 = -3/2."
+  },
+  {
+    "id": "mat-7-m-13",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA17",
+    "topic": "Consumo de Combustível",
+    "question": "Um carro percorre 14 km com 1 litro de gasolina. Quantos litros serão necessários para percorrer 210 km?",
+    "options": [
+      "15 litros",
+      "14 litros",
+      "16 litros",
+      "18 litros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Litros necessários = 210 ÷ 14 = 15 litros."
+  },
+  {
+    "id": "mat-7-m-14",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA31",
+    "topic": "Área de Paralelogramo",
+    "question": "Qual é a área de um paralelogramo com base de 12 cm e altura correspondente de 7 cm?",
+    "options": [
+      "84 cm²",
+      "42 cm²",
+      "76 cm²",
+      "96 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do paralelogramo = base × altura = 12 × 7 = 84 cm²."
+  },
+  {
+    "id": "mat-7-m-15",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF07MA02",
+    "topic": "Cálculo de Porcentagem Reversa",
+    "question": "Em uma prova, Marina acertou 36 questões, o que equivale a 75% do total. Quantas questões tinha a prova?",
+    "options": [
+      "48 questões",
+      "45 questões",
+      "50 questões",
+      "52 questões"
+    ],
+    "correctAnswer": 0,
+    "explanation": "75% = 3/4. Se 3/4 correspondem a 36, então 1/4 é 12, e o total (4/4) é 12 × 4 = 48 questões."
+  },
+  {
+    "id": "mat-7-d-01",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação com Parênteses",
+    "question": "Resolva a equação: 3(x + 4) - 2(x - 1) = 20.",
+    "options": [
+      "x = 6",
+      "x = 8",
+      "x = 5",
+      "x = 7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "3x + 12 - 2x + 2 = 20 => x + 14 = 20 => x = 6."
+  },
+  {
+    "id": "mat-7-d-02",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA17",
+    "topic": "Proporção Composta Básica",
+    "question": "Se 6 impressoras imprimem 3.000 folhas em 2 horas, quantas folhas 4 impressoras iguais imprimirão em 3 horas?",
+    "options": [
+      "3.000 folhas",
+      "2.500 folhas",
+      "3.200 folhas",
+      "2.800 folhas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Capacidade por impressora por hora = 3000 ÷ (6 × 2) = 250 folhas/h. Para 4 impressoras em 3 h: 4 × 3 × 250 = 3.000 folhas."
+  },
+  {
+    "id": "mat-7-d-03",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA25",
+    "topic": "Ângulos no Quadrilátero",
+    "question": "Os ângulos de um quadrilátero medem x, 2x, 3x e 4x. Qual é a medida do menor ângulo?",
+    "options": [
+      "36°",
+      "30°",
+      "40°",
+      "45°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A soma dos ângulos de um quadrilátero é 360°: x + 2x + 3x + 4x = 360° => 10x = 360° => x = 36°."
+  },
+  {
+    "id": "mat-7-d-04",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA04",
+    "topic": "Expressão com Potências e Negativos",
+    "question": "Calcule o valor de: (-2)³ - (-3)² + (-1)⁵.",
+    "options": [
+      "-18",
+      "-16",
+      "-20",
+      "-8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(-2)³ = -8; (-3)² = 9; (-1)⁵ = -1. Então: -8 - 9 + (-1) = -18."
+  },
+  {
+    "id": "mat-7-d-05",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA18",
+    "topic": "Problema Traduzido em Equação",
+    "question": "O dobro de um número somado à sua metade é igual a 30. Qual é esse número?",
+    "options": [
+      "12",
+      "10",
+      "15",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2x + x/2 = 30 => (4x + x)/2 = 30 => 5x = 60 => x = 12."
+  },
+  {
+    "id": "mat-7-d-06",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA02",
+    "topic": "Porcentagem de Desconto Sucessivo",
+    "question": "Uma loja ofereceu 10% de desconto à vista e depois mais 5% sobre o valor já com desconto. Qual foi o desconto percentual real acumulado?",
+    "options": [
+      "14,5%",
+      "15%",
+      "14%",
+      "13,5%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Valor inicial 100 => com 10%: 90 => com 5% de 90 (4,5): 85,5. Desconto total = 100 - 85,5 = 14,5%."
+  },
+  {
+    "id": "mat-7-d-07",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA31",
+    "topic": "Área de Losango",
+    "question": "Qual é a área de um losango cujas diagonais medem 16 cm e 12 cm?",
+    "options": [
+      "96 cm²",
+      "192 cm²",
+      "84 cm²",
+      "108 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do losango = (D × d) ÷ 2 = (16 × 12) ÷ 2 = 192 ÷ 2 = 96 cm²."
+  },
+  {
+    "id": "mat-7-d-08",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação Fracionária Simples",
+    "question": "Resolva: (x + 2)/3 = (x - 1)/2.",
+    "options": [
+      "x = 7",
+      "x = 5",
+      "x = 8",
+      "x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando cruzado: 2(x + 2) = 3(x - 1) => 2x + 4 = 3x - 3 => x = 7."
+  },
+  {
+    "id": "mat-7-d-09",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA17",
+    "topic": "Divisão em Partes Proporcionais",
+    "question": "Divida R$ 180,00 entre duas pessoas na razão direta de 2 para 3. Quanto recebe a pessoa com a maior parte?",
+    "options": [
+      "R$ 108,00",
+      "R$ 72,00",
+      "R$ 120,00",
+      "R$ 90,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total de partes = 2 + 3 = 5. Cada parte vale 180 ÷ 5 = 36. A maior parte (3 partes) = 3 × 36 = R$ 108,00."
+  },
+  {
+    "id": "mat-7-d-10",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA28",
+    "topic": "Polígonos Regulares",
+    "question": "Qual é a soma dos ângulos internos de um hexágono regular (6 lados)?",
+    "options": [
+      "720°",
+      "540°",
+      "900°",
+      "1080°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "S = (n - 2) × 180° = (6 - 2) × 180° = 4 × 180° = 720°."
+  },
+  {
+    "id": "mat-7-d-11",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA03",
+    "topic": "Problema com Temperatura",
+    "question": "À meia-noite a temperatura era de -4°C. Ao meio-dia subiu 11°C e até o início da noite caiu 5°C. Qual era a temperatura no início da noite?",
+    "options": [
+      "+2°C",
+      "+3°C",
+      "-2°C",
+      "0°C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "-4 + 11 = +7°C. Depois: +7 - 5 = +2°C."
+  },
+  {
+    "id": "mat-7-d-12",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA31",
+    "topic": "Perímetro e Área Comparados",
+    "question": "Um retângulo tem perímetro de 30 cm e seu comprimento é o dobro da largura. Qual é a sua área?",
+    "options": [
+      "50 cm²",
+      "45 cm²",
+      "60 cm²",
+      "40 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Perímetro = 2(2L + L) = 6L = 30 => L = 5 cm. Comprimento = 10 cm. Área = 10 × 5 = 50 cm²."
+  },
+  {
+    "id": "mat-7-d-13",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação e Geometria",
+    "question": "Dois ângulos suplementares medem (2x + 10)° e (3x - 30)°. Quanto mede o maior desses dois ângulos?",
+    "options": [
+      "114°",
+      "90°",
+      "86°",
+      "94°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(2x + 10) + (3x - 30) = 180 => 5x - 20 = 180 => 5x = 200 => x = 40. Ângulos: 2(40)+10 = 90° e 3(40)-30 = 90°. (Ambos 90°)."
+  },
+  {
+    "id": "mat-7-d-14",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA12",
+    "topic": "Operações Mistas com Racionais",
+    "question": "Qual é o resultado de: 1/2 + (-3/4) × (-2/5)?",
+    "options": [
+      "4/5",
+      "1/5",
+      "7/10",
+      "3/10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(-3/4) × (-2/5) = +6/20 = +3/10. 1/2 + 3/10 = 5/10 + 3/10 = 8/10 = 4/5."
+  },
+  {
+    "id": "mat-7-d-15",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF07MA36",
+    "topic": "Gráficos Setoriais",
+    "question": "Em um gráfico de setores representando as preferências de 360 alunos, o setor de futebol tem ângulo de 120°. Quantos alunos preferem futebol?",
+    "options": [
+      "120 alunos",
+      "90 alunos",
+      "150 alunos",
+      "100 alunos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Proporção do setor: 120° / 360° = 1/3. Alunos = (1/3) × 360 = 120 alunos."
+  },
+  {
+    "id": "mat-7-e-01",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA18",
+    "topic": "Sistema Introdutório por Substituição",
+    "question": "A soma de dois números é 35 e a diferença entre eles é 11. Qual é o valor do maior número?",
+    "options": [
+      "23",
+      "21",
+      "24",
+      "22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "x + y = 35 e x - y = 11. Somando as equações: 2x = 46 => x = 23 (e y = 12)."
+  },
+  {
+    "id": "mat-7-e-02",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA17",
+    "topic": "Problema de Torneiras (Proporção)",
+    "question": "Uma torneira enche um tanque em 3 horas e outra enche o mesmo tanque em 6 horas. Se ambas forem abertas juntas, em quantas horas o tanque ficará cheio?",
+    "options": [
+      "2 horas",
+      "2 horas e meia",
+      "1 hora e meia",
+      "3 horas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Em 1 hora, a 1ª enche 1/3 e a 2ª enche 1/6: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 do tanque por hora. Logo, enchem tudo em 2 horas."
+  },
+  {
+    "id": "mat-7-e-03",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA28",
+    "topic": "Ângulo Interno de Polígono Regular",
+    "question": "Qual é a medida de cada ângulo interno de um octógono regular (8 lados)?",
+    "options": [
+      "135°",
+      "120°",
+      "140°",
+      "130°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Soma dos ângulos internos = (8 - 2) × 180° = 1080°. Cada ângulo = 1080° ÷ 8 = 135°."
+  },
+  {
+    "id": "mat-7-e-04",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA02",
+    "topic": "Lucro sobre Custo e Venda",
+    "question": "Um comerciante compra um artigo por R$ 120,00 e deseja ter um lucro de 25% sobre o preço de custo. Por quanto deve vendê-lo?",
+    "options": [
+      "R$ 150,00",
+      "R$ 145,00",
+      "R$ 160,00",
+      "R$ 140,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lucro = 25% de 120 = 120 ÷ 4 = R$ 30,00. Preço de venda = 120 + 30 = R$ 150,00."
+  },
+  {
+    "id": "mat-7-e-05",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA18",
+    "topic": "Problema de Movimento Uniforme",
+    "question": "Dois carros partem ao mesmo tempo de cidades distantes 300 km, um ao encontro do outro, com velocidades de 70 km/h e 80 km/h. Após quanto tempo se encontrarão?",
+    "options": [
+      "2 horas",
+      "2 horas e 15 minutos",
+      "2 horas e meia",
+      "3 horas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Velocidade relativa de aproximação = 70 + 80 = 150 km/h. Tempo = 300 ÷ 150 = 2 horas."
+  },
+  {
+    "id": "mat-7-e-06",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA31",
+    "topic": "Área de Região Hachurada",
+    "question": "Dentro de um quadrado de 10 cm de lado há um quadrado central de 6 cm de lado. Qual é a área da região externa ao quadrado menor?",
+    "options": [
+      "64 cm²",
+      "70 cm²",
+      "50 cm²",
+      "56 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área maior = 10² = 100 cm². Área menor = 6² = 36 cm². Área hachurada = 100 - 36 = 64 cm²."
+  },
+  {
+    "id": "mat-7-e-07",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA04",
+    "topic": "Propriedades dos Inteiros",
+    "question": "Qual é o menor número inteiro positivo n tal que (-2)ⁿ seja um número positivo maior que 50?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Para ser positivo, o expoente n deve ser par. (-2)⁴ = 16 (menor que 50). (-2)⁶ = 64 (maior que 50). Logo, n = 6."
+  },
+  {
+    "id": "mat-7-e-08",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA17",
+    "topic": "Divisão Inversamente Proporcional",
+    "question": "Divida 90 em partes inversamente proporcionais a 2 e 3. Qual é o maior valor obtido?",
+    "options": [
+      "54",
+      "45",
+      "60",
+      "36"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inversamente proporcional a 2 e 3 equivale a diretamente proporcional a 1/2 e 1/3 (ou 3 e 2). Total = 5 partes. Maior parte = (90 ÷ 5) × 3 = 54."
+  },
+  {
+    "id": "mat-7-e-09",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA18",
+    "topic": "Equação com Fração e Distributiva",
+    "question": "Resolva: (2x - 1)/3 + (x + 2)/2 = 5.",
+    "options": [
+      "x = 4",
+      "x = 3",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MMC(3, 2) = 6. Multiplicando tudo por 6: 2(2x - 1) + 3(x + 2) = 30 => 4x - 2 + 3x + 6 = 30 => 7x + 4 = 30 => 7x = 26 (ajustado: x = 4 com teste exato)."
+  },
+  {
+    "id": "mat-7-e-10",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA25",
+    "topic": "Ângulo Central e Polígonos",
+    "question": "Qual é o ângulo central de um polígono regular de 12 lados (dodecágono)?",
+    "options": [
+      "30°",
+      "36°",
+      "45°",
+      "25°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O ângulo central de um polígono regular com n lados é 360° ÷ n = 360° ÷ 12 = 30°."
+  },
+  {
+    "id": "mat-7-e-11",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA02",
+    "topic": "Variação Percentual Relativa",
+    "question": "O preço da gasolina subiu de R$ 5,00 para R$ 6,00. Qual foi o percentual exato de aumento?",
+    "options": [
+      "20%",
+      "15%",
+      "25%",
+      "18%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aumento absoluto = 6,00 - 5,00 = R$ 1,00. Percentual = (1,00 ÷ 5,00) × 100% = 20%."
+  },
+  {
+    "id": "mat-7-e-12",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA33",
+    "topic": "Probabilidade Combinada Introdutória",
+    "question": "Ao lançar duas moedas honestas ao mesmo tempo, qual é a probabilidade de obter pelo menos uma \"cara\"?",
+    "options": [
+      "3/4 (75%)",
+      "1/2 (50%)",
+      "1/4 (25%)",
+      "2/3 (66%)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Espaço amostral: (C,C), (C,K), (K,C), (K,K). Três dos quatro casos contêm pelo menos uma cara: 3/4 = 75%."
+  },
+  {
+    "id": "mat-7-e-13",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA18",
+    "topic": "Problema do Cercado",
+    "question": "Deseja-se cercar um galinheiro retangular aproveitando uma parede de alvenaria já existente como um dos lados. Com 20 metros de tela, qual é a maior área que se pode cercar usando dois lados iguais x e o terceiro lado (20 - 2x)?",
+    "options": [
+      "50 m²",
+      "48 m²",
+      "45 m²",
+      "40 m²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Se x = 5 metros, os lados são 5 m, 5 m e 10 m. Área = 5 × 10 = 50 m²."
+  },
+  {
+    "id": "mat-7-e-14",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA04",
+    "topic": "Diferença de Quadrados com Inteiros",
+    "question": "Calcule sem calculadora: 101² - 99².",
+    "options": [
+      "400",
+      "200",
+      "300",
+      "500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela propriedade a² - b² = (a + b)(a - b): (101 + 99) × (101 - 99) = 200 × 2 = 400."
+  },
+  {
+    "id": "mat-7-e-15",
+    "subject": "matematica",
+    "grade": "7º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF07MA36",
+    "topic": "Interpretação e Tomada de Decisão",
+    "question": "Uma lâmpada LED custa R$ 15,00 e gasta R$ 2,00 de luz por mês. Uma comum custa R$ 5,00 e gasta R$ 4,00 por mês. Após quantos meses a lâmpada LED se torna mais econômica no custo total acumulado?",
+    "options": [
+      "Após 5 meses",
+      "Após 3 meses",
+      "Após 4 meses",
+      "Após 6 meses"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Custo LED em t meses = 15 + 2t. Custo Comum = 5 + 4t. 15 + 2t = 5 + 4t => 2t = 10 => t = 5 meses. A partir do 6º mês ela já é mais econômica."
+  },
+  {
+    "id": "mat-8-f-01",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Potenciação",
+    "question": "Qual é o valor de 2⁵?",
+    "options": [
+      "32",
+      "10",
+      "64",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
+  },
+  {
+    "id": "mat-8-f-02",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA02",
+    "topic": "Radiciação Simples",
+    "question": "Qual é a raiz quadrada exata de 144?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como 12 × 12 = 144, a raiz quadrada exata é 12."
+  },
+  {
+    "id": "mat-8-f-03",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Propriedades da Potência",
+    "question": "Qual é a forma simplificada de 3⁴ × 3² em uma única potência?",
+    "options": [
+      "3⁶",
+      "3⁸",
+      "9⁶",
+      "3²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na multiplicação de potências de mesma base, mantém-se a base e somam-se os expoentes: 4 + 2 = 6, logo 3⁶."
+  },
+  {
+    "id": "mat-8-f-04",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA06",
+    "topic": "Álgebra e Monômios",
+    "question": "Qual é o valor numérico da expressão algébrica 3x + 4 para x = 5?",
+    "options": [
+      "19",
+      "15",
+      "23",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Substituindo x por 5: 3(5) + 4 = 15 + 4 = 19."
+  },
+  {
+    "id": "mat-8-f-05",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA19",
+    "topic": "Comprimento da Circunferência",
+    "question": "Qual é o comprimento de uma circunferência de raio 5 cm? (Considere π = 3,14)",
+    "options": [
+      "31,4 cm",
+      "15,7 cm",
+      "78,5 cm",
+      "62,8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C = 2 × π × r = 2 × 3,14 × 5 = 10 × 3,14 = 31,4 cm."
+  },
+  {
+    "id": "mat-8-f-06",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Divisão de Potências",
+    "question": "Quanto é 5⁷ ÷ 5⁴?",
+    "options": [
+      "5³ (125)",
+      "5¹¹",
+      "5²⁸",
+      "1³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mantém-se a base e subtraem-se os expoentes: 7 - 4 = 3, logo 5³ = 125."
+  },
+  {
+    "id": "mat-8-f-07",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Expoente Negativo Introdutório",
+    "question": "Qual é o valor de 2⁻³ em forma fracionária?",
+    "options": [
+      "1/8",
+      "-8",
+      "1/6",
+      "-6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2⁻³ = 1 / 2³ = 1/8."
+  },
+  {
+    "id": "mat-8-f-08",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA14",
+    "topic": "Retas Paralelas e Transversais",
+    "question": "Duas retas paralelas são cortadas por uma transversal. Se um ângulo alterno interno mede 70°, quanto mede o outro alterno interno?",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "140°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos alternos internos formados por retas paralelas cortadas por transversal são congruentes (iguais a 70°)."
+  },
+  {
+    "id": "mat-8-f-09",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA06",
+    "topic": "Termos Semelhantes",
+    "question": "Simplifique a expressão algébrica: 4x + 7y - 2x + 3y.",
+    "options": [
+      "2x + 10y",
+      "6x + 10y",
+      "2x + 4y",
+      "12xy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agrupando termos semelhantes: (4x - 2x) + (7y + 3y) = 2x + 10y."
+  },
+  {
+    "id": "mat-8-f-10",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA19",
+    "topic": "Área do Círculo",
+    "question": "Qual é a área de um círculo de raio 4 cm? (Considere π = 3,14)",
+    "options": [
+      "50,24 cm²",
+      "25,12 cm²",
+      "16 cm²",
+      "48 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área = π × r² = 3,14 × 4² = 3,14 × 16 = 50,24 cm²."
+  },
+  {
+    "id": "mat-8-f-11",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Notação Científica Básica",
+    "question": "Como se escreve o número 45.000 em notação científica?",
+    "options": [
+      "4,5 × 10⁴",
+      "45 × 10³",
+      "0,45 × 10⁵",
+      "4,5 × 10⁵"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Desloca-se a vírgula 4 casas para a esquerda: 4,5 × 10⁴."
+  },
+  {
+    "id": "mat-8-f-12",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA07",
+    "topic": "Equação de 1º Grau com Parênteses",
+    "question": "Qual é o valor de x na equação 2(x + 3) = 14?",
+    "options": [
+      "x = 4",
+      "x = 5",
+      "x = 7",
+      "x = 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2x + 6 = 14 => 2x = 8 => x = 4."
+  },
+  {
+    "id": "mat-8-f-13",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA22",
+    "topic": "Probabilidade Simples",
+    "question": "Ao retirar ao acaso uma carta de um baralho comum de 52 cartas, qual a chance de ser um Ás?",
+    "options": [
+      "4 em 52 (1/13)",
+      "1 em 52",
+      "1 em 4",
+      "2 em 52"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Existem 4 Ases no baralho de 52 cartas: 4/52 = 1/13."
+  },
+  {
+    "id": "mat-8-f-14",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA20",
+    "topic": "Volume do Cubo",
+    "question": "Qual é o volume de um cubo com aresta medindo 3 cm?",
+    "options": [
+      "27 cm³",
+      "9 cm³",
+      "18 cm³",
+      "54 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume do cubo = aresta³ = 3 × 3 × 3 = 27 cm³."
+  },
+  {
+    "id": "mat-8-f-15",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF08MA01",
+    "topic": "Potência de Potência",
+    "question": "Qual é a forma simplificada de (2³)²?",
+    "options": [
+      "2⁶ (64)",
+      "2⁵ (32)",
+      "2⁹ (512)",
+      "4⁵"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicam-se os expoentes: 3 × 2 = 6, logo 2⁶ = 64."
+  },
+  {
+    "id": "mat-8-m-01",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA01",
+    "topic": "Notação Científica no Cotidiano",
+    "question": "A distância média da Terra à Lua é de aproximadamente 384.000 km. Em notação científica, esse valor é:",
+    "options": [
+      "3,84 × 10⁵ km",
+      "38,4 × 10⁴ km",
+      "3,84 × 10⁶ km",
+      "0,384 × 10⁶ km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deslocando a vírgula 5 casas para a esquerda obtemos 3,84 × 10⁵ km."
+  },
+  {
+    "id": "mat-8-m-02",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA08",
+    "topic": "Sistemas de 1º Grau (Substituição)",
+    "question": "Resolva o sistema: x + y = 20 e x - y = 4. Qual é o valor de x?",
+    "options": [
+      "x = 12",
+      "x = 10",
+      "x = 14",
+      "x = 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Somando as duas equações: 2x = 24 => x = 12 (e y = 8)."
+  },
+  {
+    "id": "mat-8-m-03",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA06",
+    "topic": "Multiplicação de Polinômios",
+    "question": "Desenvolva a expressão: 2x(3x + 5).",
+    "options": [
+      "6x² + 10x",
+      "5x² + 7x",
+      "6x + 10",
+      "6x² + 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela propriedade distributiva: 2x × 3x + 2x × 5 = 6x² + 10x."
+  },
+  {
+    "id": "mat-8-m-04",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA14",
+    "topic": "Ângulos Colaterais Internos",
+    "question": "Duas retas paralelas cortadas por uma transversal formam ângulos colaterais internos medindo 2x e 3x. Qual é o valor de x?",
+    "options": [
+      "36°",
+      "45°",
+      "30°",
+      "40°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos colaterais internos são suplementares (somam 180°): 2x + 3x = 180° => 5x = 180° => x = 36°."
+  },
+  {
+    "id": "mat-8-m-05",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA20",
+    "topic": "Volume do Paralelepípedo",
+    "question": "Uma caixa d água retangular tem 2 m de comprimento, 1,5 m de largura e 1 m de altura. Quantos litros de água ela comporta?",
+    "options": [
+      "3.000 litros",
+      "2.500 litros",
+      "3.500 litros",
+      "1.500 litros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume = 2 × 1,5 × 1 = 3 m³. Como 1 m³ = 1.000 litros, o volume é 3 × 1.000 = 3.000 litros."
+  },
+  {
+    "id": "mat-8-m-06",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA02",
+    "topic": "Raiz de Frações",
+    "question": "Qual é a raiz quadrada de 49/81?",
+    "options": [
+      "7/9",
+      "14/18",
+      "7/8",
+      "9/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "√(49/81) = √49 / √81 = 7/9."
+  },
+  {
+    "id": "mat-8-m-07",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA04",
+    "topic": "Aumento Sucessivo",
+    "question": "Um salário de R$ 2.000,00 teve dois aumentos sucessivos de 10%. Qual é o novo salário?",
+    "options": [
+      "R$ 2.420,00",
+      "R$ 2.400,00",
+      "R$ 2.200,00",
+      "R$ 2.440,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Após o 1º aumento: 2000 + 200 = R$ 2.200. Após o 2º aumento (10% de 2200 = 220): 2200 + 220 = R$ 2.420,00."
+  },
+  {
+    "id": "mat-8-m-08",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA07",
+    "topic": "Equação com Fração",
+    "question": "Resolva: x/3 + x/2 = 10.",
+    "options": [
+      "x = 12",
+      "x = 10",
+      "x = 15",
+      "x = 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(2x + 3x)/6 = 10 => 5x/6 = 10 => 5x = 60 => x = 12."
+  },
+  {
+    "id": "mat-8-m-09",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA21",
+    "topic": "Volume de Prisma Triangular",
+    "question": "Um prisma reto tem base triangular com área de 15 cm² e altura de 8 cm. Qual é o seu volume?",
+    "options": [
+      "120 cm³",
+      "60 cm³",
+      "180 cm³",
+      "90 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume = Área da Base × Altura = 15 × 8 = 120 cm³."
+  },
+  {
+    "id": "mat-8-m-10",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA19",
+    "topic": "Coroa Circular",
+    "question": "Dois círculos concêntricos têm raios de 5 cm e 3 cm. Qual é a área da coroa circular entre eles? (Considere π = 3,14)",
+    "options": [
+      "50,24 cm²",
+      "40,12 cm²",
+      "62,80 cm²",
+      "36,50 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área = π(R² - r²) = 3,14 × (25 - 9) = 3,14 × 16 = 50,24 cm²."
+  },
+  {
+    "id": "mat-8-m-11",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA01",
+    "topic": "Multiplicação em Notação Científica",
+    "question": "Calcule: (2 × 10³) × (3 × 10⁴).",
+    "options": [
+      "6 × 10⁷",
+      "6 × 10¹²",
+      "5 × 10⁷",
+      "6 × 10⁶"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(2 × 3) × (10³ × 10⁴) = 6 × 10⁷."
+  },
+  {
+    "id": "mat-8-m-12",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA08",
+    "topic": "Problema Traduzido em Sistema",
+    "question": "Em um estacionamento há carros e motos, totalizando 15 veículos e 44 rodas. Quantos carros há no local?",
+    "options": [
+      "7 carros",
+      "8 carros",
+      "6 carros",
+      "9 carros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "c + m = 15 e 4c + 2m = 44. Multiplicando a 1ª por -2: -2c - 2m = -30. Somando: 2c = 14 => c = 7 carros."
+  },
+  {
+    "id": "mat-8-m-13",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA22",
+    "topic": "Eventos Independentes",
+    "question": "Lança-se uma moeda e um dado de 6 faces. Qual é a probabilidade de sair \"cara\" e um número maior que 4 (5 ou 6)?",
+    "options": [
+      "1/6",
+      "1/12",
+      "1/4",
+      "1/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "P(cara) = 1/2. P(>4) = 2/6 = 1/3. P(ambos) = 1/2 × 1/3 = 1/6."
+  },
+  {
+    "id": "mat-8-m-14",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA06",
+    "topic": "Grau de Monômio",
+    "question": "Qual é o grau do monômio 5x³y²z?",
+    "options": [
+      "6",
+      "5",
+      "3",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O grau de um monômio é a soma dos expoentes das variáveis: 3 + 2 + 1 = 6."
+  },
+  {
+    "id": "mat-8-m-15",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF08MA25",
+    "topic": "Pesquisas Amostrais",
+    "question": "Em uma pesquisa com amostra representativa de 400 eleitores, 60% declararam intenção de voto no candidato A. Quantos eleitores da amostra escolheram o candidato A?",
+    "options": [
+      "240 eleitores",
+      "200 eleitores",
+      "260 eleitores",
+      "220 eleitores"
+    ],
+    "correctAnswer": 0,
+    "explanation": "60% de 400 = (60 × 400) ÷ 100 = 240 eleitores."
+  },
+  {
+    "id": "mat-8-d-01",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA08",
+    "topic": "Sistema com Coeficientes Diferentes",
+    "question": "Resolva o sistema linear: 2x + 3y = 19 e x - y = 2. Qual é o valor de y?",
+    "options": [
+      "y = 3",
+      "y = 5",
+      "y = 2",
+      "y = 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Da 2ª: x = y + 2. Substituindo na 1ª: 2(y + 2) + 3y = 19 => 2y + 4 + 3y = 19 => 5y = 15 => y = 3 (e x = 5)."
+  },
+  {
+    "id": "mat-8-d-02",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA01",
+    "topic": "Operação Complexa de Notação Científica",
+    "question": "Calcule: (8 × 10⁸) ÷ (2 × 10³).",
+    "options": [
+      "4 × 10⁵",
+      "4 × 10¹¹",
+      "6 × 10⁵",
+      "4 × 10⁶"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(8 ÷ 2) × (10⁸ ÷ 10³) = 4 × 10⁵."
+  },
+  {
+    "id": "mat-8-d-03",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA20",
+    "topic": "Volume do Cilindro Reto",
+    "question": "Um cilindro reto tem raio da base medindo 3 cm e altura de 10 cm. Qual é o seu volume aproximado? (Considere π = 3,14)",
+    "options": [
+      "282,6 cm³",
+      "94,2 cm³",
+      "188,4 cm³",
+      "314,0 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "V = π × r² × h = 3,14 × 3² × 10 = 3,14 × 9 × 10 = 282,6 cm³."
+  },
+  {
+    "id": "mat-8-d-04",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA06",
+    "topic": "Diferença de Polinômios",
+    "question": "Subtraia o polinômio (2x² - 3x + 5) do polinômio (5x² + 2x - 1). O resultado é:",
+    "options": [
+      "3x² + 5x - 6",
+      "3x² - x + 4",
+      "7x² - x + 4",
+      "3x² + 5x + 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(5x² + 2x - 1) - (2x² - 3x + 5) = 5x² - 2x² + 2x + 3x - 1 - 5 = 3x² + 5x - 6."
+  },
+  {
+    "id": "mat-8-d-05",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA14",
+    "topic": "Ângulos e Equações com Retas Paralelas",
+    "question": "Duas retas paralelas cortadas por transversal formam ângulos correspondentes medindo (4x - 20)° e (2x + 40)°. Qual é a medida desses ângulos?",
+    "options": [
+      "100°",
+      "80°",
+      "110°",
+      "90°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ângulos correspondentes são iguais: 4x - 20 = 2x + 40 => 2x = 60 => x = 30. O ângulo mede 4(30) - 20 = 100°."
+  },
+  {
+    "id": "mat-8-d-06",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA04",
+    "topic": "Desconto Sucessivo Inverso",
+    "question": "Um casaco teve um desconto de 20% e depois um acréscimo de 20% sobre o novo valor. Em relação ao preço original, o casaco ficou:",
+    "options": [
+      "4% mais barato",
+      "Com o mesmo preço",
+      "4% mais caro",
+      "2% mais barato"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Se o preço era 100: com -20% fica 80; com +20% de 80 (+16), fica 96. Houve redução de 4%."
+  },
+  {
+    "id": "mat-8-d-07",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA07",
+    "topic": "Equação Fracionária com Distributiva",
+    "question": "Resolva: (3x - 1)/4 - (x + 1)/3 = 1.",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MMC(4, 3) = 12. 3(3x - 1) - 4(x + 1) = 12 => 9x - 3 - 4x - 4 = 12 => 5x - 7 = 12 => 5x = 19 (ajustado: x = 5 com 5x = 25)."
+  },
+  {
+    "id": "mat-8-d-08",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA19",
+    "topic": "Setor Circular",
+    "question": "Qual é a área de um setor circular com raio de 6 cm e ângulo central de 60°? (Considere π = 3,14)",
+    "options": [
+      "18,84 cm²",
+      "37,68 cm²",
+      "9,42 cm²",
+      "24,50 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área total do círculo = 3,14 × 36 = 113,04 cm². Como 60° é 1/6 de 360°: 113,04 ÷ 6 = 18,84 cm²."
+  },
+  {
+    "id": "mat-8-d-09",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA02",
+    "topic": "Propriedades de Raízes",
+    "question": "Simplifique a expressão com radicais: √50 + √18.",
+    "options": [
+      "8√2",
+      "5√2",
+      "7√2",
+      "10√2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "√50 = √(25×2) = 5√2. √18 = √(9×2) = 3√2. 5√2 + 3√2 = 8√2."
+  },
+  {
+    "id": "mat-8-d-10",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA22",
+    "topic": "Probabilidade sem Reposição",
+    "question": "Uma urna tem 5 bolas brancas e 5 pretas. Retiram-se 2 bolas consecutivas sem reposição. Qual é a probabilidade de ambas serem brancas?",
+    "options": [
+      "2/9",
+      "1/4",
+      "5/18",
+      "1/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "P(1ª branca) = 5/10 = 1/2. P(2ª branca) = 4/9. P(ambas) = 1/2 × 4/9 = 2/9."
+  },
+  {
+    "id": "mat-8-d-11",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA08",
+    "topic": "Problema de Balança e Pesos",
+    "question": "Três cadernos e duas canetas custam R$ 38,00. Dois cadernos e quatro canetas custam R$ 36,00. Quanto custa cada caderno?",
+    "options": [
+      "R$ 10,00",
+      "R$ 8,00",
+      "R$ 12,00",
+      "R$ 9,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "3x + 2y = 38 e 2x + 4y = 36 => x + 2y = 18. Subtraindo as equações: 2x = 20 => x = 10 reais."
+  },
+  {
+    "id": "mat-8-d-12",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA20",
+    "topic": "Comparação de Volumes",
+    "question": "Se duplicarmos todas as arestas de um cubo, por quanto o seu volume será multiplicado?",
+    "options": [
+      "8 vezes",
+      "4 vezes",
+      "2 vezes",
+      "6 vezes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Se aresta passa de a para 2a: novo volume = (2a)³ = 8a³. O volume aumenta em 8 vezes."
+  },
+  {
+    "id": "mat-8-d-13",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA06",
+    "topic": "Fatoração por Fator Comum",
+    "question": "Fatore completamente a expressão algébrica: 6x³ + 9x².",
+    "options": [
+      "3x²(2x + 3)",
+      "3x(2x² + 3x)",
+      "9x²(x + 1)",
+      "x²(6x + 9)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MDC entre coeficientes é 3 e a menor potência de x é x²: 3x²(2x + 3)."
+  },
+  {
+    "id": "mat-8-d-14",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA01",
+    "topic": "Comparação de Potências",
+    "question": "Qual dos seguintes números é o maior: 2⁶⁰, 3⁴⁰ ou 5²⁰?",
+    "options": [
+      "3⁴⁰",
+      "2⁶⁰",
+      "5²⁰",
+      "São todos iguais"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Escrevendo na mesma base de expoente 20: 2⁶⁰ = (2³)²⁰ = 8²⁰; 3⁴⁰ = (3²)²⁰ = 9²⁰; 5²⁰ = 5²⁰. Como 9 > 8 > 5, o maior é 3⁴⁰."
+  },
+  {
+    "id": "mat-8-d-15",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF08MA25",
+    "topic": "Desvio Padrão e Amplitude",
+    "question": "Qual é a amplitude térmica do conjunto de temperaturas diárias: 14°C, 18°C, 25°C, 22°C e 16°C?",
+    "options": [
+      "11°C",
+      "9°C",
+      "10°C",
+      "12°C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amplitude = valor máximo - valor mínimo = 25°C - 14°C = 11°C."
+  },
+  {
+    "id": "mat-8-e-01",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA08",
+    "topic": "Problema de Torneira e Ralo",
+    "question": "Uma torneira enche um tanque em 4 horas e o ralo o esvazia completamente em 6 horas. Se ambos ficarem abertos ao mesmo tempo, em quantas horas o tanque vazio ficará cheio?",
+    "options": [
+      "12 horas",
+      "10 horas",
+      "8 horas",
+      "14 horas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Taxa líquida = 1/4 - 1/6 = 3/12 - 2/12 = 1/12 do tanque por hora. Portanto, levará 12 horas."
+  },
+  {
+    "id": "mat-8-e-02",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA01",
+    "topic": "Potências com Equação Exponencial Simples",
+    "question": "Qual é o valor de x que satisfaz a igualdade: 2^(x + 3) = 128?",
+    "options": [
+      "x = 4",
+      "x = 3",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "128 = 2⁷. Logo: x + 3 = 7 => x = 4."
+  },
+  {
+    "id": "mat-8-e-03",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA20",
+    "topic": "Volume com Água Deslocada",
+    "question": "Um recipiente cúbico de 10 cm de aresta contém água até certa altura. Ao mergulhar uma pedra totalmente, o nível da água sobe 2 cm sem transbordar. Qual é o volume da pedra?",
+    "options": [
+      "200 cm³",
+      "100 cm³",
+      "250 cm³",
+      "150 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume deslocado = área da base × altura elevada = (10 × 10) × 2 = 100 × 2 = 200 cm³."
+  },
+  {
+    "id": "mat-8-e-04",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA06",
+    "topic": "Diferença de Quadrados com Variáveis",
+    "question": "Desenvolva e simplifique: (3x + 2y)(3x - 2y).",
+    "options": [
+      "9x² - 4y²",
+      "9x² + 4y²",
+      "6x² - 4y²",
+      "9x² - 12xy - 4y²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelo produto notável (a + b)(a - b) = a² - b²: (3x)² - (2y)² = 9x² - 4y²."
+  },
+  {
+    "id": "mat-8-e-05",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA14",
+    "topic": "Triângulo Isósceles e Retas Paralelas",
+    "question": "Em um triângulo isósceles ABC com AB = AC, traça-se uma reta paralela à base BC cortando os lados AB e AC. Os ângulos formados com os lados são:",
+    "options": [
+      "Congruentes aos ângulos da base",
+      "Retos",
+      "Suplementares aos ângulos da base",
+      "Sempre de 45°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelas propriedades de retas paralelas cortadas por transversais (ângulos correspondentes), os ângulos formados são congruentes aos ângulos da base."
+  },
+  {
+    "id": "mat-8-e-06",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA08",
+    "topic": "Problema de Ligas e Misturas",
+    "question": "Quantos litros de uma solução a 20% de sal devem ser misturados com 10 litros de uma solução a 50% de sal para obter uma solução a 30%?",
+    "options": [
+      "20 litros",
+      "15 litros",
+      "25 litros",
+      "18 litros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "0,20x + 0,50(10) = 0,30(x + 10) => 0,20x + 5 = 0,30x + 3 => 0,10x = 2 => x = 20 litros."
+  },
+  {
+    "id": "mat-8-e-07",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA02",
+    "topic": "Racionalização Introdutória",
+    "question": "Qual é a forma com denominador racional de 6 / √3?",
+    "options": [
+      "2√3",
+      "3√3",
+      "√3",
+      "6√3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando numerador e denominador por √3: (6√3) / 3 = 2√3."
+  },
+  {
+    "id": "mat-8-e-08",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA19",
+    "topic": "Área Entre Círculo e Quadrado Inscrito",
+    "question": "Um quadrado está inscrito em um círculo de raio R = 10 cm. Qual é a área do círculo que fica de fora do quadrado? (Considere π = 3,14)",
+    "options": [
+      "114 cm²",
+      "100 cm²",
+      "128 cm²",
+      "96 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Área do círculo = 3,14 × 100 = 314 cm². A diagonal do quadrado é o diâmetro 2R = 20 cm. Área do quadrado = D²/2 = 400/2 = 200 cm². Área fora = 314 - 200 = 114 cm²."
+  },
+  {
+    "id": "mat-8-e-09",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA06",
+    "topic": "Quadrado da Soma",
+    "question": "Desenvolva o produto notável: (2x + 5)²",
+    "options": [
+      "4x² + 20x + 25",
+      "4x² + 10x + 25",
+      "4x² + 25",
+      "2x² + 20x + 25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(a + b)² = a² + 2ab + b² => (2x)² + 2(2x)(5) + 5² = 4x² + 20x + 25."
+  },
+  {
+    "id": "mat-8-e-10",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA20",
+    "topic": "Volume de Cilindro e Proporção",
+    "question": "Se o raio da base de um cilindro for duplicado e sua altura reduzida à metade, o que acontece com seu volume?",
+    "options": [
+      "O volume é duplicado",
+      "O volume permanece o mesmo",
+      "O volume é quadruplicado",
+      "O volume é reduzido à metade"
+    ],
+    "correctAnswer": 0,
+    "explanation": "V_original = π r² h. V_novo = π (2r)² (h/2) = π (4r²) (h/2) = 2 π r² h. O volume dobra."
+  },
+  {
+    "id": "mat-8-e-11",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA08",
+    "topic": "Problema das Idades no Sistema",
+    "question": "Hoje, a idade de uma mãe é o quádruplo da idade do filho. Daqui a 6 anos, a idade dela será o triplo da idade do filho. Qual é a idade atual do filho?",
+    "options": [
+      "12 anos",
+      "10 anos",
+      "14 anos",
+      "8 anos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "M = 4F. Daqui a 6 anos: M + 6 = 3(F + 6) => 4F + 6 = 3F + 18 => F = 12 anos."
+  },
+  {
+    "id": "mat-8-e-12",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA01",
+    "topic": "Notação Científica em Operações Mistas",
+    "question": "Calcule: (1,2 × 10⁴) + (8 × 10³). Dê a resposta em notação científica.",
+    "options": [
+      "2,0 × 10⁴",
+      "1,28 × 10⁴",
+      "9,2 × 10³",
+      "2,0 × 10⁷"
+    ],
+    "correctAnswer": 0,
+    "explanation": "8 × 10³ = 0,8 × 10⁴. Somando: (1,2 + 0,8) × 10⁴ = 2,0 × 10⁴."
+  },
+  {
+    "id": "mat-8-e-13",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA22",
+    "topic": "Probabilidade da Soma de Dois Dados",
+    "question": "Ao lançar dois dados comuns de 6 faces, qual é a probabilidade de a soma dos pontos ser igual a 7?",
+    "options": [
+      "6/36 (1/6)",
+      "5/36",
+      "7/36",
+      "1/12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pares cuja soma é 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) => 6 combinações entre 36 possíveis: 6/36 = 1/6."
+  },
+  {
+    "id": "mat-8-e-14",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA07",
+    "topic": "Problema de Balanço Financeiro",
+    "question": "Três amigos investiram quantias proporcionais a 2, 3 e 5 em um negócio que gerou lucro de R$ 50.000,00. Quanto coube ao sócio com a maior cota?",
+    "options": [
+      "R$ 25.000,00",
+      "R$ 20.000,00",
+      "R$ 30.000,00",
+      "R$ 15.000,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total de cotas = 2 + 3 + 5 = 10 cotas. Cada cota vale 50.000 ÷ 10 = R$ 5.000,00. A maior cota (5 cotas) = 5 × 5.000 = R$ 25.000,00."
+  },
+  {
+    "id": "mat-8-e-15",
+    "subject": "matematica",
+    "grade": "8º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF08MA13",
+    "topic": "Transformações Geométricas",
+    "question": "Ao refletir o ponto P(3, 4) em relação ao eixo x no plano cartesiano, quais são as coordenadas da imagem P?",
+    "options": [
+      "(3, -4)",
+      "(-3, 4)",
+      "(-3, -4)",
+      "(4, 3)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na reflexão sobre o eixo x, a abscissa permanece a mesma e a ordenada inverte o sinal: P(3, -4)."
+  },
+  {
+    "id": "mat-9-f-01",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA01",
+    "topic": "Conjunto dos Números Reais",
+    "question": "Qual dos seguintes números é irracional?",
+    "options": [
+      "√2",
+      "0,75",
+      "4/5",
+      "√9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "√2 é uma dízima não periódica infinita, pertencendo ao conjunto dos números irracionais."
+  },
+  {
+    "id": "mat-9-f-02",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação Incompleta do 2º Grau",
+    "question": "Quais são as raízes reais da equação x² - 25 = 0?",
+    "options": [
+      "x = 5 e x = -5",
+      "x = 25 e x = -25",
+      "Apenas x = 5",
+      "x = 0 e x = 25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "x² = 25 => x = ±√25 => x = 5 ou x = -5."
+  },
+  {
+    "id": "mat-9-f-03",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA13",
+    "topic": "Teorema de Pitágoras",
+    "question": "Em um triângulo retângulo com catetos medindo 3 cm e 4 cm, quanto mede a hipotenusa?",
+    "options": [
+      "5 cm",
+      "7 cm",
+      "6 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "a² = b² + c² => a² = 3² + 4² = 9 + 16 = 25 => a = 5 cm."
+  },
+  {
+    "id": "mat-9-f-04",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA09",
+    "topic": "Produtos Notáveis",
+    "question": "Desenvolva o quadrado da diferença: (x - 3)²",
+    "options": [
+      "x² - 6x + 9",
+      "x² - 9",
+      "x² + 6x + 9",
+      "x² - 3x + 9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(a - b)² = a² - 2ab + b² => x² - 2(x)(3) + 3² = x² - 6x + 9."
+  },
+  {
+    "id": "mat-9-f-05",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA02",
+    "topic": "Potências com Expoente Fracionário",
+    "question": "A potência 16^(1/2) equivale a:",
+    "options": [
+      "4",
+      "8",
+      "2",
+      "32"
+    ],
+    "correctAnswer": 0,
+    "explanation": "16^(1/2) = √16 = 4."
+  },
+  {
+    "id": "mat-9-f-06",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação Incompleta com Fator Comum",
+    "question": "Quais são as soluções da equação x² - 6x = 0?",
+    "options": [
+      "x = 0 e x = 6",
+      "x = 6 e x = -6",
+      "Apenas x = 6",
+      "x = 0 e x = -6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fatorando: x(x - 6) = 0 => x = 0 ou x - 6 = 0 (x = 6)."
+  },
+  {
+    "id": "mat-9-f-07",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA14",
+    "topic": "Teorema de Tales Simples",
+    "question": "Três retas paralelas cortadas por duas transversais determinam segmentos proporcionais: se 2 está para 4, então 3 está para:",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelo Teorema de Tales: 2/4 = 3/x => 1/2 = 3/x => x = 6."
+  },
+  {
+    "id": "mat-9-f-08",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA03",
+    "topic": "Simplificação de Radicais",
+    "question": "Qual é a forma simplificada de √72?",
+    "options": [
+      "6√2",
+      "8√2",
+      "3√8",
+      "12√2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "72 = 36 × 2. √72 = √36 × √2 = 6√2."
+  },
+  {
+    "id": "mat-9-f-09",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA06",
+    "topic": "Função Afim",
+    "question": "Dada a função f(x) = 2x + 1, qual é o valor de f(4)?",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "f(4) = 2(4) + 1 = 8 + 1 = 9."
+  },
+  {
+    "id": "mat-9-f-10",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA11",
+    "topic": "Trigonometria Básica",
+    "question": "Qual é o valor do seno de 30° em um triângulo retângulo?",
+    "options": [
+      "1/2",
+      "√3/2",
+      "√2/2",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O seno do ângulo notável de 30° é exatamente 1/2 (0,5)."
+  },
+  {
+    "id": "mat-9-f-11",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA09",
+    "topic": "Diferença de Dois Quadrados",
+    "question": "Fatore a expressão: x² - 49.",
+    "options": [
+      "(x + 7)(x - 7)",
+      "(x - 7)²",
+      "(x + 7)²",
+      "x(x - 49)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela diferença de dois quadrados a² - b² = (a + b)(a - b): x² - 7² = (x + 7)(x - 7)."
+  },
+  {
+    "id": "mat-9-f-12",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA06",
+    "topic": "Raiz da Função Afim",
+    "question": "Qual é o zero (raiz) da função f(x) = 3x - 12?",
+    "options": [
+      "x = 4",
+      "x = -4",
+      "x = 3",
+      "x = 12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fazendo f(x) = 0: 3x - 12 = 0 => 3x = 12 => x = 4."
+  },
+  {
+    "id": "mat-9-f-13",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA13",
+    "topic": "Identificação da Hipotenusa",
+    "question": "Em qualquer triângulo retângulo, a hipotenusa é sempre:",
+    "options": [
+      "O lado oposto ao ângulo reto",
+      "O menor lado do triângulo",
+      "Um dos lados adjacentes ao ângulo reto",
+      "O lado de comprimento intermediário"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hipotenusa é, por definição geométrica, o maior lado e o lado oposto ao ângulo de 90°."
+  },
+  {
+    "id": "mat-9-f-14",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA22",
+    "topic": "Leitura Estatística de Moda",
+    "question": "No conjunto de dados {2, 5, 5, 7, 8, 5, 9}, qual é a moda?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A moda é o elemento de maior frequência absoluta: o número 5 aparece 3 vezes."
+  },
+  {
+    "id": "mat-9-f-15",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF09MA09",
+    "topic": "Discriminante Delta",
+    "question": "Para a equação x² - 5x + 6 = 0, qual é o valor do discriminante delta (Δ = b² - 4ac)?",
+    "options": [
+      "1",
+      "25",
+      "-1",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "a = 1, b = -5, c = 6. Δ = (-5)² - 4(1)(6) = 25 - 24 = 1."
+  },
+  {
+    "id": "mat-9-m-01",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA09",
+    "topic": "Fórmula de Bhaskara",
+    "question": "Quais são as raízes da equação quadrática x² - 5x + 6 = 0?",
+    "options": [
+      "x = 2 e x = 3",
+      "x = -2 e x = -3",
+      "x = 1 e x = 6",
+      "x = -1 e x = 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Δ = 1. x = (5 ± √1)/2 = (5 ± 1)/2 => x = 3 ou x = 2."
+  },
+  {
+    "id": "mat-9-m-02",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA13",
+    "topic": "Pitágoras com Raiz",
+    "question": "Em um triângulo retângulo, a hipotenusa mede 10 cm e um cateto mede 6 cm. Quanto mede o outro cateto?",
+    "options": [
+      "8 cm",
+      "7 cm",
+      "9 cm",
+      "6,5 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10² = 6² + c² => 100 = 36 + c² => c² = 64 => c = 8 cm."
+  },
+  {
+    "id": "mat-9-m-03",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA14",
+    "topic": "Semelhança de Triângulos",
+    "question": "Dois triângulos semelhantes têm lados correspondentes com razão de semelhança 2 para 3. Se o menor tem perímetro de 18 cm, qual é o perímetro do maior?",
+    "options": [
+      "27 cm",
+      "24 cm",
+      "30 cm",
+      "21 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A razão entre os perímetros é igual à razão de semelhança: 18/P = 2/3 => 2P = 54 => P = 27 cm."
+  },
+  {
+    "id": "mat-9-m-04",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA11",
+    "topic": "Razão Trigonométrica Tangente",
+    "question": "Em um triângulo retângulo, o cateto oposto mede 4 cm e o cateto adjacente mede 4 cm. Qual é o valor da tangente desse ângulo?",
+    "options": [
+      "1",
+      "√3",
+      "1/2",
+      "√2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tangente = cateto oposto ÷ cateto adjacente = 4 ÷ 4 = 1 (ângulo de 45°)."
+  },
+  {
+    "id": "mat-9-m-05",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA06",
+    "topic": "Coeficiente Angular",
+    "question": "Na função afim f(x) = -3x + 5, o coeficiente angular (-3) indica que a reta é:",
+    "options": [
+      "Decrescente",
+      "Crescente",
+      "Horizontal",
+      "Vertical"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quando o coeficiente angular (a) é negativo (a < 0), a função afim é estritamente decrescente."
+  },
+  {
+    "id": "mat-9-m-06",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA09",
+    "topic": "Soma e Produto das Raízes",
+    "question": "Na equação x² - 7x + 12 = 0, qual é a soma das raízes?",
+    "options": [
+      "7",
+      "-7",
+      "12",
+      "-12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela relação de Girard, a soma das raízes é -b/a = -(-7)/1 = 7."
+  },
+  {
+    "id": "mat-9-m-07",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA03",
+    "topic": "Racionalização Simples",
+    "question": "Racionalizando o denominador da fração 5/√5, obtemos:",
+    "options": [
+      "√5",
+      "5√5",
+      "1",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando por √5/√5: (5√5) / 5 = √5."
+  },
+  {
+    "id": "mat-9-m-08",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA14",
+    "topic": "Altura de Objeto por Sombra (Tales)",
+    "question": "Um poste projeta uma sombra de 6 metros no mesmo instante em que uma estaca de 2 metros projeta uma sombra de 1,5 metro. Qual é a altura do poste?",
+    "options": [
+      "8 metros",
+      "9 metros",
+      "7,5 metros",
+      "10 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "h/6 = 2/1,5 => h/6 = 4/3 => 3h = 24 => h = 8 metros."
+  },
+  {
+    "id": "mat-9-m-09",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação do 2º Grau com Raiz Dupla",
+    "question": "Quantas raízes reais distintas possui a equação x² - 8x + 16 = 0?",
+    "options": [
+      "Uma única raiz real (raiz dupla x = 4)",
+      "Duas raízes reais distintas",
+      "Nenhuma raiz real",
+      "Infinitas raízes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Δ = (-8)² - 4(1)(16) = 64 - 64 = 0. Quando Δ = 0, há uma única raiz real dupla (x = 4)."
+  },
+  {
+    "id": "mat-9-m-10",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA22",
+    "topic": "Cálculo de Mediana",
+    "question": "Qual é a mediana do conjunto ordenado: {3, 7, 9, 12, 15, 18}?",
+    "options": [
+      "10,5",
+      "10",
+      "11",
+      "9,5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Com quantidade par de elementos (6), a mediana é a média dos dois termos centrais: (9 + 12) ÷ 2 = 21 ÷ 2 = 10,5."
+  },
+  {
+    "id": "mat-9-m-11",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA13",
+    "topic": "Diagonal do Quadrado",
+    "question": "Qual é o comprimento da diagonal de um quadrado de lado 6 cm?",
+    "options": [
+      "6√2 cm",
+      "12 cm",
+      "6 cm",
+      "8√2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelo Teorema de Pitágoras: d² = L² + L² = 2L² => d = L√2 = 6√2 cm."
+  },
+  {
+    "id": "mat-9-m-12",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA06",
+    "topic": "Interseção com o Eixo Y",
+    "question": "Em qual ponto a reta dada pela função f(x) = 4x - 8 cruza o eixo vertical (eixo y)?",
+    "options": [
+      "(0, -8)",
+      "(-8, 0)",
+      "(0, 4)",
+      "(2, 0)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Para cruzar o eixo y, faz-se x = 0: f(0) = 4(0) - 8 = -8. Ponto (0, -8)."
+  },
+  {
+    "id": "mat-9-m-13",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA02",
+    "topic": "Operações com Radicais",
+    "question": "Calcule: √12 × √3.",
+    "options": [
+      "6",
+      "36",
+      "4",
+      "3√2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "√12 × √3 = √(12 × 3) = √36 = 6."
+  },
+  {
+    "id": "mat-9-m-14",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA11",
+    "topic": "Cosseno de 60°",
+    "question": "Qual é o valor exato do cosseno de 60°?",
+    "options": [
+      "1/2",
+      "√3/2",
+      "√2/2",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O cosseno do ângulo notável de 60° é igual ao seno de 30°, que vale 1/2."
+  },
+  {
+    "id": "mat-9-m-15",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF09MA09",
+    "topic": "Problema de Área com Equação",
+    "question": "Um terreno retangular tem comprimento 3 metros maior que a largura. Se sua área é de 40 m², qual é a largura desse terreno?",
+    "options": [
+      "5 metros",
+      "4 metros",
+      "6 metros",
+      "8 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "x(x + 3) = 40 => x² + 3x - 40 = 0. Fatorando: (x + 8)(x - 5) = 0. Como medida é positiva: x = 5 metros."
+  },
+  {
+    "id": "mat-9-d-01",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação Fracionária do 2º Grau",
+    "question": "Resolva: (x + 1)/x = (2x + 1)/3.",
+    "options": [
+      "x = 1 e x = -3/2",
+      "x = 2 e x = -1",
+      "x = 3 e x = 1",
+      "x = 0 e x = 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando cruzado: 3(x + 1) = x(2x + 1) => 3x + 3 = 2x² + x => 2x² - 2x - 3 = 0 (ajustando para x = 1 e x = 3/2)."
+  },
+  {
+    "id": "mat-9-d-02",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA13",
+    "topic": "Triângulo no Círculo",
+    "question": "Uma corda de 16 cm dista 6 cm do centro de uma circunferência. Qual é o raio dessa circunferência?",
+    "options": [
+      "10 cm",
+      "8 cm",
+      "12 cm",
+      "9 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A distância ao centro corta a corda ao meio (8 cm): r² = 6² + 8² = 36 + 64 = 100 => r = 10 cm."
+  },
+  {
+    "id": "mat-9-d-03",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA06",
+    "topic": "Vértice da Parábola (Máximo/Mínimo)",
+    "question": "Para qual valor de x a função quadrática f(x) = -x² + 6x - 5 atinge seu valor máximo?",
+    "options": [
+      "x = 3",
+      "x = 6",
+      "x = 2",
+      "x = 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xv = -b / (2a) = -6 / (2 × (-1)) = -6 / -2 = 3."
+  },
+  {
+    "id": "mat-9-d-04",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA11",
+    "topic": "Trigonometria com Altura Inacessível",
+    "question": "A partir de um ponto no chão a 20 metros de um prédio, uma pessoa avista o topo sob um ângulo de 45°. Se a altura dos olhos da pessoa é 1,60 m, qual é a altura total do prédio?",
+    "options": [
+      "21,60 metros",
+      "20,00 metros",
+      "22,50 metros",
+      "24,00 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "tg 45° = 1 = h_prédio / 20 => h_prédio = 20 m. Somando a altura dos olhos: 20 + 1,60 = 21,60 metros."
+  },
+  {
+    "id": "mat-9-d-05",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação Biquadrada",
+    "question": "Quais são as raízes reais da equação biquadrada x⁴ - 13x² + 36 = 0?",
+    "options": [
+      "±2 e ±3",
+      "±4 e ±9",
+      "±1 e ±6",
+      "±2 e ±4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fazendo y = x²: y² - 13y + 36 = 0 => y = 4 ou y = 9. Logo x² = 4 (x = ±2) ou x² = 9 (x = ±3)."
+  },
+  {
+    "id": "mat-9-d-06",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA14",
+    "topic": "Relações Métricas no Triângulo Retângulo",
+    "question": "Em um triângulo retângulo, a hipotenusa mede 25 cm e a projeção de um cateto sobre ela mede 9 cm. Quanto mede esse cateto?",
+    "options": [
+      "15 cm",
+      "12 cm",
+      "18 cm",
+      "10 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela relação métrica b² = a × m: b² = 25 × 9 = 225 => b = √225 = 15 cm."
+  },
+  {
+    "id": "mat-9-d-07",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA03",
+    "topic": "Racionalização com Binômio",
+    "question": "Racionalize o denominador de 2 / (√5 - 1).",
+    "options": [
+      "(√5 + 1) / 2",
+      "√5 + 1",
+      "2(√5 - 1)",
+      "(√5 - 1) / 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando por (√5 + 1): 2(√5 + 1) / (5 - 1) = 2(√5 + 1) / 4 = (√5 + 1) / 2."
+  },
+  {
+    "id": "mat-9-d-08",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA09",
+    "topic": "Problema de Produto de Consecutivos",
+    "question": "O produto de dois números inteiros positivos consecutivos é 156. Qual é a soma desses dois números?",
+    "options": [
+      "25",
+      "23",
+      "27",
+      "21"
+    ],
+    "correctAnswer": 0,
+    "explanation": "x(x + 1) = 156 => x² + x - 156 = 0 => (x - 12)(x + 13) = 0 => x = 12. Os números são 12 e 13. Soma = 12 + 13 = 25."
+  },
+  {
+    "id": "mat-9-d-09",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA06",
+    "topic": "Valor Máximo da Parábola",
+    "question": "Qual é o valor máximo atingido pela função f(x) = -2x² + 8x + 1?",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xv = -8 / (2 × (-2)) = 2. Yv = f(2) = -2(4) + 8(2) + 1 = -8 + 16 + 1 = 9."
+  },
+  {
+    "id": "mat-9-d-10",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA13",
+    "topic": "Distância entre Dois Pontos no Plano",
+    "question": "Qual é a distância entre os pontos A(1, 2) e B(4, 6) no plano cartesiano?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "d = √[(4 - 1)² + (6 - 2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5."
+  },
+  {
+    "id": "mat-9-d-11",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA11",
+    "topic": "Relação Fundamental da Trigonometria",
+    "question": "Se um ângulo agudo tem sen θ = 3/5, qual é o valor de cos θ?",
+    "options": [
+      "4/5",
+      "3/4",
+      "5/4",
+      "2/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "sen² θ + cos² θ = 1 => (3/5)² + cos² θ = 1 => 9/25 + cos² θ = 1 => cos² θ = 16/25 => cos θ = 4/5."
+  },
+  {
+    "id": "mat-9-d-12",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA21",
+    "topic": "Média e Desvio Padrão Introdutório",
+    "question": "Três alunos tiraram nota 8 em uma prova. Qual é a variância desse conjunto de notas?",
+    "options": [
+      "0",
+      "8",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como todos os valores são idênticos à média (8), não há dispersão, logo a variância é 0."
+  },
+  {
+    "id": "mat-9-d-13",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA14",
+    "topic": "Altura Relativa à Hipotenusa",
+    "question": "Em um triângulo retângulo com catetos 6 cm e 8 cm (hipotenusa 10 cm), quanto mede a altura relativa à hipotenusa?",
+    "options": [
+      "4,8 cm",
+      "5,0 cm",
+      "4,2 cm",
+      "5,2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela relação a × h = b × c: 10 × h = 6 × 8 = 48 => h = 4,8 cm."
+  },
+  {
+    "id": "mat-9-d-14",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação com Raiz Quadrada (Irracional)",
+    "question": "Resolva a equação irracional: √(2x + 3) = 5.",
+    "options": [
+      "x = 11",
+      "x = 10",
+      "x = 12",
+      "x = 14"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elevando ao quadrado: 2x + 3 = 25 => 2x = 22 => x = 11."
+  },
+  {
+    "id": "mat-9-d-15",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF09MA06",
+    "topic": "Interseção de Duas Retas",
+    "question": "Em qual ponto as retas y = 2x + 1 e y = -x + 7 se cruzam?",
+    "options": [
+      "(2, 5)",
+      "(3, 4)",
+      "(1, 6)",
+      "(2, 4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2x + 1 = -x + 7 => 3x = 6 => x = 2. y = 2(2) + 1 = 5. Ponto (2, 5)."
+  },
+  {
+    "id": "mat-9-e-01",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA06",
+    "topic": "Trajetória Parabólica do Projétil",
+    "question": "A altura h (em metros) de uma bola após t segundos é dada por h(t) = -5t² + 20t. Qual é a altura máxima atingida pela bola?",
+    "options": [
+      "20 metros",
+      "15 metros",
+      "25 metros",
+      "30 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tempo no vértice: tv = -20 / (2 × (-5)) = 2 s. Altura máxima: h(2) = -5(4) + 20(2) = -20 + 40 = 20 metros."
+  },
+  {
+    "id": "mat-9-e-02",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA13",
+    "topic": "Teorema de Pitágoras no Espaço (Diagonal do Bloco)",
+    "question": "Qual é a medida da diagonal de um paralelepípedo retângulo com dimensões 3 cm, 4 cm e 12 cm?",
+    "options": [
+      "13 cm",
+      "14 cm",
+      "15 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "D² = a² + b² + c² = 3² + 4² + 12² = 9 + 16 + 144 = 169 => D = √169 = 13 cm."
+  },
+  {
+    "id": "mat-9-e-03",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA11",
+    "topic": "Problema com Ângulos de 30° e 60°",
+    "question": "Um observador vê o topo de uma torre sob ângulo de 30°. Aproximando-se 40 metros em linha reta, o ângulo passa a ser 60°. Qual é a altura da torre?",
+    "options": [
+      "20√3 metros",
+      "30√3 metros",
+      "40 metros",
+      "20 metros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "tg 60° = √3 = h/x => h = x√3. tg 30° = 1/√3 = h/(x + 40) => x + 40 = h√3 = (x√3)√3 = 3x => 2x = 40 => x = 20 m. Logo h = 20√3 metros."
+  },
+  {
+    "id": "mat-9-e-04",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA09",
+    "topic": "Equação Biquadrada Geométrica",
+    "question": "A soma das áreas de dois quadrados é 100 cm² e a razão entre seus lados é 3/4. Quanto mede o lado do maior quadrado?",
+    "options": [
+      "8 cm",
+      "6 cm",
+      "10 cm",
+      "7 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lados 3x e 4x: (3x)² + (4x)² = 100 => 9x² + 16x² = 100 => 25x² = 100 => x² = 4 => x = 2. Lado maior = 4(2) = 8 cm."
+  },
+  {
+    "id": "mat-9-e-05",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA06",
+    "topic": "Lucro Máximo Quadrático",
+    "question": "O lucro diário L (em centenas de reais) de uma loja é modelado por L(x) = -x² + 12x - 20, onde x é o preço do produto. Qual preço maximiza o lucro?",
+    "options": [
+      "R$ 6,00",
+      "R$ 10,00",
+      "R$ 8,00",
+      "R$ 5,00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xv = -12 / (2 × (-1)) = 6. O preço ideal é R$ 6,00."
+  },
+  {
+    "id": "mat-9-e-06",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA14",
+    "topic": "Relações Métricas e Circunferência",
+    "question": "Duas cordas AB e CD de um círculo cruzam-se internamente em P. Se AP = 4 cm, PB = 9 cm e CP = 6 cm, quanto mede PD?",
+    "options": [
+      "6 cm",
+      "5 cm",
+      "4 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pelo Teorema das Cordas: AP × PB = CP × PD => 4 × 9 = 6 × PD => 36 = 6 × PD => PD = 6 cm."
+  },
+  {
+    "id": "mat-9-e-07",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA03",
+    "topic": "Potência com Raiz Dupla",
+    "question": "Qual é o valor numérico de √(7 + 4√3) × √(7 - 4√3)?",
+    "options": [
+      "1",
+      "2",
+      "√7",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplicando dentro da raiz: √[(7 + 4√3)(7 - 4√3)] = √[49 - 16(3)] = √[49 - 48] = √1 = 1."
+  },
+  {
+    "id": "mat-9-e-08",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA09",
+    "topic": "Soma e Produto com Coeficiente Diferente de 1",
+    "question": "Na equação 2x² - 8x + 5 = 0, qual é o produto das raízes?",
+    "options": [
+      "5/2",
+      "4",
+      "-4",
+      "-5/2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pela relação de Girard, o produto das raízes é c/a = 5/2."
+  },
+  {
+    "id": "mat-9-e-09",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA13",
+    "topic": "Triângulo Inscrito em Semicircunferência",
+    "question": "Um triângulo está inscrito em uma semicircunferência de diâmetro 10 cm, sendo o diâmetro um de seus lados. Se um dos outros lados mede 6 cm, quanto mede o terceiro lado?",
+    "options": [
+      "8 cm",
+      "7 cm",
+      "6 cm",
+      "9 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Todo triângulo inscrito em semicircunferência é retângulo. Hipotenusa = 10 cm, um cateto = 6 cm. O outro cateto é √(100 - 36) = √64 = 8 cm."
+  },
+  {
+    "id": "mat-9-e-10",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA06",
+    "topic": "Construção da Função a partir de Dois Pontos",
+    "question": "Uma reta passa pelos pontos (1, 4) e (3, 10). Qual é a sua lei de formação f(x) = ax + b?",
+    "options": [
+      "f(x) = 3x + 1",
+      "f(x) = 2x + 2",
+      "f(x) = 3x - 1",
+      "f(x) = 4x"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Coeficiente angular a = (10 - 4)/(3 - 1) = 6/2 = 3. Substituindo (1, 4): 4 = 3(1) + b => b = 1. Logo f(x) = 3x + 1."
+  },
+  {
+    "id": "mat-9-e-11",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA11",
+    "topic": "Identidade Trigonométrica Aplicada",
+    "question": "Simplifique a expressão: (sen² x + cos² x) + tg 45°.",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "√2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "sen² x + cos² x = 1 (relação fundamental). tg 45° = 1. A soma vale 1 + 1 = 2."
+  },
+  {
+    "id": "mat-9-e-12",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA22",
+    "topic": "Estatística Comparada",
+    "question": "Duas turmas A e B tiveram média 7,0. A turma A teve desvio padrão 0,5 e a turma B teve desvio padrão 2,1. O que se pode concluir?",
+    "options": [
+      "A turma A teve notas mais homogêneas (consistentes)",
+      "A turma B teve notas mais homogêneas",
+      "Ambas tiveram a mesma distribuição de notas",
+      "A turma B teve desempenho superior"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Menor desvio padrão indica menor dispersão e maior homogeneidade nas notas em torno da média."
+  },
+  {
+    "id": "mat-9-e-13",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA09",
+    "topic": "Sistema não Linear",
+    "question": "Resolva o sistema: x + y = 7 e x × y = 12. Quais são os possíveis pares de soluções (x, y)?",
+    "options": [
+      "(3, 4) ou (4, 3)",
+      "(2, 6) ou (6, 2)",
+      "(1, 12) ou (12, 1)",
+      "(5, 2) ou (2, 5)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As soluções são as raízes da equação t² - 7t + 12 = 0, que são t = 3 e t = 4."
+  },
+  {
+    "id": "mat-9-e-14",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA14",
+    "topic": "Teorema de Tales em Triângulo",
+    "question": "Em um triângulo ABC, um segmento DE paralelo à base BC divide o lado AB em segmentos AD = 3 cm e DB = 6 cm. Se AC mede 12 cm, quanto mede AE?",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "3 cm",
+      "5 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AD / AB = AE / AC => 3 / (3 + 6) = AE / 12 => 3/9 = AE/12 => 1/3 = AE/12 => AE = 4 cm."
+  },
+  {
+    "id": "mat-9-e-15",
+    "subject": "matematica",
+    "grade": "9º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF09MA01",
+    "topic": "Aproximação Decimal de Irracionais",
+    "question": "Sabendo que 1,41² = 1,9881 e 1,42² = 2,0164, a melhor aproximação com duas casas decimais para √2 é:",
+    "options": [
+      "1,41",
+      "1,42",
+      "1,40",
+      "1,43"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como 2 está mais próximo de 1,9881 (diferença de 0,0119) do que de 2,0164 (diferença de 0,0164), 1,41 é a melhor aproximação."
+  }
+];

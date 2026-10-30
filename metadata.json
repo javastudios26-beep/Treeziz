@@ -1,0 +1,6 @@
+{
+  "name": "Matriz do Conhecimento",
+  "description": "Jogo educativo futurista de Matemática e Ciências no estilo Matrix com quizzes, progressão RPG e Gacha de árvores cósmicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

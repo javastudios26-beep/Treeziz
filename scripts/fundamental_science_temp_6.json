@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "cie-6-f-01",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI01",
+    "topic": "Misturas Homogêneas e Heterogêneas",
+    "question": "A água mineral sem gás que bebemos no dia a dia é um exemplo de:",
+    "options": [
+      "Mistura homogênea (solução)",
+      "Mistura heterogênea",
+      "Substância pura isolada",
+      "Composto gasoso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A água mineral contém sais minerais dissolvidos de modo uniforme, formando uma única fase visível (mistura homogênea)."
+  },
+  {
+    "id": "cie-6-f-02",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI05",
+    "topic": "Célula como Unidade da Vida",
+    "question": "Qual estrutura envolve e protege a célula, controlando a entrada e saída de substâncias?",
+    "options": [
+      "Membrana plasmática",
+      "Parede mineral",
+      "Núcleo",
+      "Ribossomo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A membrana plasmática atua como barreira seletiva semipermeável que delimita a célula."
+  },
+  {
+    "id": "cie-6-f-03",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI02",
+    "topic": "Transformações Físicas",
+    "question": "O derretimento de um cubo de gelo deixado sobre a mesa em temperatura ambiente é um exemplo de:",
+    "options": [
+      "Transformação física (fusão)",
+      "Transformação química irreversível",
+      "Combustão",
+      "Oxidação"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A fusão é uma mudança de estado físico (sólido para líquido) onde a substância continua sendo água (H₂O)."
+  },
+  {
+    "id": "cie-6-f-04",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 60,
+    "bnccSkill": "EF06CI11",
+    "topic": "Estrutura Interna da Terra",
+    "question": "Qual é a camada mais externa e fina do planeta Terra, onde nós pisamos e construímos?",
+    "options": [
+      "Crosta terrestre",
+      "Manto inferior",
+      "Núcleo externo",
+      "Núcleo interno"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A crosta terrestre é a camada superficial sólida e rochosa que sustenta os continentes e os oceanos."
+  },
+  {
+    "id": "cie-6-f-05",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI06",
+    "topic": "Níveis de Organização dos Seres Vivos",
+    "question": "Qual é a sequência correta dos níveis básicos de organização biológica nos organismos pluricelulares?",
+    "options": [
+      "Célula → Tecido → Órgão → Sistema → Organismo",
+      "Tecido → Célula → Órgão → Organismo",
+      "Órgão → Célula → Tecido → Sistema",
+      "Célula → Órgão → Tecido → Organismo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As células semelhantes formam tecidos, tecidos formam órgãos, órgãos compõem sistemas que constituem o organismo."
+  },
+  {
+    "id": "cie-6-f-06",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI03",
+    "topic": "Separação de Misturas",
+    "question": "Qual método simples é utilizado para separar o pó de café da água quente ao preparar a bebida?",
+    "options": [
+      "Filtração",
+      "Decantação",
+      "Evaporação",
+      "Destilação fracionada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A filtração retém o pó sólido no filtro de papel ou pano, permitindo a passagem do líquido."
+  },
+  {
+    "id": "cie-6-f-07",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI09",
+    "topic": "Solo e Agricultura",
+    "question": "Qual componente do solo fértil é originado da decomposição de restos de plantas e animais?",
+    "options": [
+      "Húmus (matéria orgânica)",
+      "Areia pura",
+      "Argila expandida",
+      "Cascalho"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O húmus é a matéria orgânica decomposta que fornece nutrientes essenciais e melhora a retenção de água no solo."
+  },
+  {
+    "id": "cie-6-f-08",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI05",
+    "topic": "Material Genético",
+    "question": "Nas células eucariontes, onde fica guardado o material genético (DNA)?",
+    "options": [
+      "Dentro do núcleo delimitado por membrana",
+      "Livre na membrana plasmática",
+      "Na parede celular",
+      "No vacúolo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As células eucariontes possuem núcleo delimitado pela carioteca (envoltório nuclear), onde se aloja o DNA."
+  },
+  {
+    "id": "cie-6-f-09",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI13",
+    "topic": "Formato da Terra",
+    "question": "A observação de navios desaparecendo gradualmente no horizonte com o casco sumindo antes do mastro é evidência de que:",
+    "options": [
+      "A Terra tem formato esférico (curvo)",
+      "A Terra é plana",
+      "O mar evapora no horizonte",
+      "Os navios afundam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A curvatura da Terra faz com que a linha de visada bloqueie primeiro as partes mais baixas do navio distante."
+  },
+  {
+    "id": "cie-6-f-10",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI07",
+    "topic": "Sistema Digestório Introdutório",
+    "question": "Em qual órgão do corpo humano tem início a digestão dos alimentos com a mastigação e salivação?",
+    "options": [
+      "Boca",
+      "Estômago",
+      "Intestino delgado",
+      "Esôfago"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A digestão começa na boca com a trituração mecânica pelos dentes e a ação enzimática da saliva."
+  },
+  {
+    "id": "cie-6-f-11",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI01",
+    "topic": "Fases de uma Mistura",
+    "question": "Uma mistura de água líquida e óleo de cozinha em repouso apresenta quantas fases visíveis?",
+    "options": [
+      "Duas fases distintas (mistura heterogênea bifásica)",
+      "Uma única fase",
+      "Três fases",
+      "Nenhuma fase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Por serem imiscíveis e possuírem densidades diferentes, a água e o óleo não se misturam, exibindo duas fases visíveis."
+  },
+  {
+    "id": "cie-6-f-12",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI08",
+    "topic": "Sistema Locomotor",
+    "question": "Quais estruturas do corpo humano conectam os músculos aos ossos para permitir o movimento?",
+    "options": [
+      "Tendões",
+      "Articulações",
+      "Cartilagens",
+      "Vasos sanguíneos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Os tendões são cordões fibrosos resistentes que fixam os músculos esqueléticos aos ossos."
+  },
+  {
+    "id": "cie-6-f-13",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI11",
+    "topic": "Movimento de Rotação",
+    "question": "O movimento que a Terra realiza girando em torno de seu próprio eixo imaginário em aproximadamente 24 horas é a:",
+    "options": [
+      "Rotação",
+      "Translação",
+      "Nutação",
+      "Precessão"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A rotação terrestre é o giro em torno do próprio eixo que dá origem à alternância entre dias e noites."
+  },
+  {
+    "id": "cie-6-f-14",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI03",
+    "topic": "Separação Magnética",
+    "question": "Qual ferramenta pode ser usada para separar facilmente pequenos pregos de ferro misturados na areia?",
+    "options": [
+      "Um ímã (separação magnética)",
+      "Uma peneira",
+      "Um filtro de papel",
+      "Um termômetro"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O ímã atrai materiais ferromagnéticos como o ferro, separando-os de materiais não magnéticos como a areia."
+  },
+  {
+    "id": "cie-6-f-15",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "facil",
+    "xp": 20,
+    "bnccSkill": "EF06CI14",
+    "topic": "Movimento Aparente do Sol",
+    "question": "Ao longo do dia, o Sol parece nascer a leste e se pôr a oeste. Esse fenômeno aparente é provocado pelo:",
+    "options": [
+      "Movimento de rotação da Terra de oeste para leste",
+      "Giro do Sol ao redor da Terra",
+      "Movimento de translação anual",
+      "Formato elíptico da órbita"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como a Terra gira de oeste para leste, temos a ilusão de ótica de que os astros no céu se movem de leste para oeste."
+  },
+  {
+    "id": "cie-6-m-01",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI03",
+    "topic": "Destilação Simples",
+    "question": "Qual método de separação é o mais indicado para recuperar a água pura a partir de uma mistura de água com sal dissolvido?",
+    "options": [
+      "Destilação simples",
+      "Filtração simples",
+      "Decantação",
+      "Catação"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na destilação simples, a água evapora por aquecimento e se condensa no condensador, deixando o sal sólido no frasco."
+  },
+  {
+    "id": "cie-6-m-02",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI02",
+    "topic": "Evidência de Transformação Química",
+    "question": "Qual dos seguintes fenômenos do dia a dia representa uma transformação química com formação de novas substâncias?",
+    "options": [
+      "Queima de uma vela com liberação de fumaça e calor",
+      "Rasgar uma folha de papel",
+      "Quebrar um copo de vidro",
+      "Dissolver açúcar em água"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A queima (combustão) consome o combustível e o oxigênio gerando novas substâncias (gás carbônico, vapor de água e fuligem)."
+  },
+  {
+    "id": "cie-6-m-03",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI07",
+    "topic": "Respiração e Trocas Gasosas",
+    "question": "Em quais estruturas microscópicas dos pulmões ocorrem as trocas gasosas (hematose) entre o ar e o sangue?",
+    "options": [
+      "Alvéolos pulmonares",
+      "Brônquios",
+      "Traqueia",
+      "Laringe"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Os alvéolos pulmonares possuem paredes finas e rica rede de capilares que facilitam a passagem de oxigênio para o sangue."
+  },
+  {
+    "id": "cie-6-m-04",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI11",
+    "topic": "Litosfera e Tectonismo",
+    "question": "A litosfera da Terra não é uma camada contínua, mas sim dividida em grandes blocos rochosos em movimento chamados:",
+    "options": [
+      "Placas tectônicas",
+      "Camadas atmosféricas",
+      "Bacias sedimentares",
+      "Crateras basálticas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A litosfera é fragmentada em placas tectônicas que deslizam lentamente sobre o manto superior."
+  },
+  {
+    "id": "cie-6-m-05",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI05",
+    "topic": "Célula Vegetal vs Animal",
+    "question": "Qual organela/estrutura está presente nas células vegetais para realizar fotossíntese, mas ausente nas células animais?",
+    "options": [
+      "Cloroplasto",
+      "Mitocôndria",
+      "Ribossomo",
+      "Membrana plasmática"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Os cloroplastos contêm clorofila e realizam a fotossíntese, sendo exclusivos de células vegetais e algas."
+  },
+  {
+    "id": "cie-6-m-06",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI03",
+    "topic": "Decantação e Tratamento de Água",
+    "question": "Em uma estação de tratamento de água, a etapa em que partículas sólidas pesadas descem para o fundo do tanque é chamada:",
+    "options": [
+      "Decantação",
+      "Filtração",
+      "Fluoretação",
+      "Aeração"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A decantação permite que as partículas mais densas se depositem no fundo do tanque pela ação da gravidade."
+  },
+  {
+    "id": "cie-6-m-07",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI09",
+    "topic": "Erosão do Solo",
+    "question": "A remoção da vegetação nativa nas encostas de morros facilita qual processo prejudicial ao solo?",
+    "options": [
+      "Erosão e deslizamentos de terra",
+      "Aumento de nutrientes",
+      "Formação de novo húmus",
+      "Oxigenação do solo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As raízes das plantas seguram as partículas do solo. Sem vegetação, as chuvas arrastam o solo desprotegido (erosão)."
+  },
+  {
+    "id": "cie-6-m-08",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI07",
+    "topic": "Circulação Sanguínea",
+    "question": "Qual vaso sanguíneo tem paredes elásticas e grossas e transporta sangue do coração para o restante do corpo sob alta pressão?",
+    "options": [
+      "Artérias",
+      "Veias",
+      "Capilares",
+      "Vênulas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As artérias saem dos ventrículos com paredes espessas e musculosas para suportar a alta pressão do bombeamento cardíaco."
+  },
+  {
+    "id": "cie-6-m-09",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI12",
+    "topic": "Estações do Ano",
+    "question": "As estações do ano ocorrem na Terra principalmente devido a qual combinação de fatores astronômicos?",
+    "options": [
+      "Inclinação do eixo terrestre e movimento de translação ao redor do Sol",
+      "Apenas a distância da Terra ao Sol",
+      "Apenas a rotação da Terra",
+      "Movimento da Lua ao redor da Terra"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O eixo inclinado em cerca de 23,5° combinado com a translação faz com que cada hemisfério receba insolação diferente ao longo do ano."
+  },
+  {
+    "id": "cie-6-m-10",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI01",
+    "topic": "Solubilidade e Saturação",
+    "question": "Ao adicionar açúcar continuamente em um copo de água, chega um momento em que ele não se dissolve mais e acumula no fundo. Dizemos que a solução está:",
+    "options": [
+      "Saturada",
+      "Insaturada",
+      "Diluída",
+      "Pura"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uma solução saturada atingiu o coeficiente máximo de solubilidade daquele soluto na temperatura dada."
+  },
+  {
+    "id": "cie-6-m-11",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI06",
+    "topic": "Diferenciação Celular",
+    "question": "Um neurônio e uma célula muscular possuem formatos e funções muito diferentes, embora pertençam ao mesmo corpo, porque:",
+    "options": [
+      "Sofreram especialização e diferenciação para desempenhar funções específicas",
+      "Possuem materiais genéticos de espécies diferentes",
+      "Uma é vegetal e a outra é animal",
+      "Uma é acelular"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Durante o desenvolvimento, as células ativam genes específicos para se especializarem em diferentes tecidos."
+  },
+  {
+    "id": "cie-6-m-12",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI04",
+    "topic": "Materiais Sintéticos e Sustentabilidade",
+    "question": "Muitos plásticos comuns levam séculos para se decompor na natureza porque são:",
+    "options": [
+      "Materiais sintéticos derivados de petróleo que bactérias não decompõem com facilidade",
+      "Substâncias orgânicas puras",
+      "Compostos minerais da crosta",
+      "Solúveis em água doce"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Os polímeros sintéticos possuem ligações químicas artificiais que a maioria dos microrganismos decompositores não consegue quebrar."
+  },
+  {
+    "id": "cie-6-m-13",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI10",
+    "topic": "Camadas da Atmosfera",
+    "question": "Em qual camada da atmosfera ocorrem os principais fenômenos meteorológicos que conhecemos, como nuvens, chuvas e ventos?",
+    "options": [
+      "Troposfera",
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A troposfera é a camada em contato com a superfície que concentra cerca de 75% dos gases e quase todo o vapor de água."
+  },
+  {
+    "id": "cie-6-m-14",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI08",
+    "topic": "Sentidos e Sistema Nervoso",
+    "question": "Qual parte do olho humano é sensível à luz e converte os estímulos luminosos em impulsos nervosos enviados ao cérebro?",
+    "options": [
+      "Retina",
+      "Córnea",
+      "Cristalino",
+      "Íris"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A retina contém fotorreceptores (cones e bastonetes) que transformam a luz em impulsos elétricos transmitidos pelo nervo óptico."
+  },
+  {
+    "id": "cie-6-m-15",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "medio",
+    "xp": 35,
+    "bnccSkill": "EF06CI13",
+    "topic": "Sombra e Gnomon",
+    "question": "Ao observar a sombra de uma vara vertical (gnomon) ao longo de um dia ensolarado, percebe-se que ela atinge seu menor comprimento:",
+    "options": [
+      "Ao meio-dia solar, quando o Sol atinge sua altura máxima no céu",
+      "No início da manhã",
+      "No final da tarde",
+      "Durante o pôr do sol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Com os raios solares incidindo mais verticalmente no ápice do dia, a projeção da sombra no solo fica mais curta."
+  },
+  {
+    "id": "cie-6-d-01",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI03",
+    "topic": "Centrifugação",
+    "question": "Em exames de laboratório, qual técnica acelera a separação do plasma dos glóbulos vermelhos do sangue através de rotação rápida?",
+    "options": [
+      "Centrifugação",
+      "Filtração simples",
+      "Evaporação lenta",
+      "Levigação"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A centrifugação utiliza força centrífuga em alta velocidade para precipitar os componentes mais densos no fundo do tubo."
+  },
+  {
+    "id": "cie-6-d-02",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI05",
+    "topic": "Fotossíntese e Respiração Celular",
+    "question": "As plantas realizam fotossíntese de dia e respiram o tempo todo. Na respiração celular, elas absorvem e liberam, respectivamente:",
+    "options": [
+      "Absorvem gás oxigênio (O₂) e liberam gás carbônico (CO₂)",
+      "Absorvem CO₂ e liberam O₂",
+      "Absorvem nitrogênio e liberam oxigênio",
+      "Não realizam respiração"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tanto animais quanto plantas respiram consumindo oxigênio e liberando dióxido de carbono para obter energia celular."
+  },
+  {
+    "id": "cie-6-d-03",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI11",
+    "topic": "Tipos de Rochas",
+    "question": "Rochas formadas pelo resfriamento e solidificação do magma vulcânico, como o basalto e o granito, são classificadas como:",
+    "options": [
+      "Rochas magmáticas (ígneas)",
+      "Rochas sedimentares",
+      "Rochas metamórficas",
+      "Minerais orgânicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As rochas magmáticas ou ígneas se originam da cristalização do magma vulcânico na superfície ou no interior da crosta."
+  },
+  {
+    "id": "cie-6-d-04",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI07",
+    "topic": "Integração entre Digestão e Respiração",
+    "question": "Para que as células do corpo produzam energia vital (ATP), quais dois insumos essenciais devem ser entregues a elas pelos sistemas circulatório, digestório e respiratório?",
+    "options": [
+      "Glicose (nutriente alimentar) e gás oxigênio (da respiração)",
+      "Água pura e gás carbônico",
+      "Apenas oxigênio e minerais",
+      "Sal de cozinha e gás nitrogênio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A respiração celular utiliza a glicose obtida da digestão e o oxigênio obtido na respiração para liberar energia e sustentar a vida."
+  },
+  {
+    "id": "cie-6-d-05",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI09",
+    "topic": "Técnicas de Conservação do Solo",
+    "question": "O plantio em curvas de nível e o terraceamento em encostas íngremes são técnicas agrícolas importantes porque:",
+    "options": [
+      "Reduzem a velocidade do escoamento da água da chuva, evitando a erosão",
+      "Aumentam a incidência direta do sol",
+      "Eliminam a necessidade de irrigação",
+      "Substituem o uso de adubo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As curvas de nível quebram a velocidade da enxurrada descendo a encosta, facilitando a infiltração e protegendo o solo."
+  },
+  {
+    "id": "cie-6-d-06",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI02",
+    "topic": "Lei de Conservação das Massas em Sistema Fechado",
+    "question": "Se queimarmos 10 gramas de palha de aço dentro de um frasco de vidro hermeticamente fechado contendo oxigênio, a massa total do frasco após a reação será:",
+    "options": [
+      "Exatamente igual à massa inicial antes da queima",
+      "Maior, porque a palha enferruja",
+      "Menor, porque cinzas pesam menos",
+      "Zero gramas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Em um sistema fechado, pela Lei de Lavoisier, a matéria não é criada nem destruída; a massa total permanece constante."
+  },
+  {
+    "id": "cie-6-d-07",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI14",
+    "topic": "Fuso Horário e Rotação",
+    "question": "O Brasil possui diferentes fusos horários oficiais em seu território porque:",
+    "options": [
+      "A grande extensão no sentido leste-oeste recebe a luz solar em momentos diferentes",
+      "O país fica em dois hemisférios (norte e sul)",
+      "O relevo do planalto altera a velocidade do sol",
+      "O horário é definido por cada estado"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como a Terra gira 360° em 24 horas (15° por hora), regiões com grande distância longitudinal amanhecem em horários diferentes."
+  },
+  {
+    "id": "cie-6-d-08",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI08",
+    "topic": "Ato Reflexo",
+    "question": "Ao encostar a mão por acidente em uma panela quente, a pessoa retira a mão antes mesmo de perceber a dor conscientemente. Essa resposta rápida involuntária é coordenada pelo:",
+    "options": [
+      "Ato reflexo mediado pela medula espinhal",
+      "Cerebelo no topo da cabeça",
+      "Estômago",
+      "Coração"
+    ],
+    "correctAnswer": 0,
+    "explanation": "No arco reflexo medular, a resposta motora rápida de proteção é disparada diretamente na medula espinhal para evitar queimaduras graves."
+  },
+  {
+    "id": "cie-6-d-09",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI04",
+    "topic": "Reciclagem e Ciclo de Materiais",
+    "question": "Por que a reciclagem do alumínio economiza cerca de 95% de energia em comparação com a produção a partir do minério bauxita?",
+    "options": [
+      "Porque fundir a sucata exige muito menos calor do que a extração eletroquímica do minério",
+      "Porque o alumínio reciclado é mais leve",
+      "Porque a sucata evapora mais rápido",
+      "Porque a bauxita é inflamável"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A eletrólise da bauxita consome enormes quantidades de eletricidade; reprocessar latinhas de alumínio demanda uma fração mínima dessa energia."
+  },
+  {
+    "id": "cie-6-d-10",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI12",
+    "topic": "Solstícios e Equinócios",
+    "question": "No dia do equinócio, em qualquer lugar do planeta:",
+    "options": [
+      "O dia e a noite têm praticamente a mesma duração (12 horas cada)",
+      "Ocorre a noite mais longa do ano",
+      "Ocorre o dia mais longo do ano",
+      "O Sol não se põe nos polos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Equinócio significa \"noites iguais\": a luz solar incide perpendicularmente sobre a linha do Equador."
+  },
+  {
+    "id": "cie-6-d-11",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI01",
+    "topic": "Densidade e Flutuação",
+    "question": "Um pedaço maciço de ferro afunda na água, mas um navio colossal feito de toneladas de aço flutua no oceano. Isso ocorre porque:",
+    "options": [
+      "O navio é oco e seu volume engloba ar, tornando sua densidade média menor que a da água",
+      "O sal do mar destrói a gravidade",
+      "O ferro do navio é modificado geneticamente",
+      "O navio tem motores potentes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A densidade é a massa dividida pelo volume total. O grande volume interno ocupado por ar reduz a densidade média do navio para menos de 1 g/cm³."
+  },
+  {
+    "id": "cie-6-d-12",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI10",
+    "topic": "Camada de Ozônio",
+    "question": "Qual é o papel vital desempenhado pela camada de ozônio (O₃) presente na estratosfera terrestre?",
+    "options": [
+      "Filtrar e absorver a maior parte da radiação ultravioleta prejudicial (UV-B) do Sol",
+      "Reter o calor gerando o efeito estufa",
+      "Fornecer oxigênio para a respiração humana",
+      "Gerar ventos alísios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O ozônio estratosférico bloqueia grande parte dos raios ultravioleta de alta energia que provocam mutações genéticas e câncer de pele."
+  },
+  {
+    "id": "cie-6-d-13",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI06",
+    "topic": "Organismos Procariontes vs Eucariontes",
+    "question": "Qual é a principal característica que diferencia as bactérias (procariontes) de todos os animais e plantas (eucariontes)?",
+    "options": [
+      "As bactérias não possuem núcleo organizado delimitado por membrana",
+      "As bactérias não têm DNA",
+      "As bactérias são pluricelulares",
+      "As bactérias têm esqueleto ósseo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nas bactérias, o material genético fica disperso no citoplasma na região do nucleoide, sem carioteca."
+  },
+  {
+    "id": "cie-6-d-14",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI03",
+    "topic": "Cromatografia em Papel",
+    "question": "A técnica de laboratório que separa os diferentes pigmentos coloridos da tinta de uma caneta utilizando álcool e papel filtro é a:",
+    "options": [
+      "Cromatografia em papel",
+      "Destilação fracionada",
+      "Catação seletiva",
+      "Sublimação"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na cromatografia, os componentes da mistura se deslocam pelo papel em velocidades diferentes conforme sua solubilidade e afinidade com o solvente."
+  },
+  {
+    "id": "cie-6-d-15",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "dificil",
+    "xp": 55,
+    "bnccSkill": "EF06CI13",
+    "topic": "Eclipses e Esfericidade",
+    "question": "Durante os eclipses lunares, a sombra projetada pela Terra sobre a Lua é sempre circular em todas as posições observadas. Esse fato histórico serviu a Aristóteles para provar que:",
+    "options": [
+      "A Terra tem formato esférico tridimensional",
+      "A Terra é um disco plano",
+      "A Lua é maior que a Terra",
+      "A Terra não tem atmosfera"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Somente um corpo esférico tridimensional projeta uma sombra circular independente do ângulo em que a luz o atinge."
+  },
+  {
+    "id": "cie-6-e-01",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI02",
+    "topic": "Reversibilidade de Transformações",
+    "question": "Qual das seguintes transformações é considerada reversível através de simples alteração de temperatura ambiente?",
+    "options": [
+      "Condensação do vapor de água de volta ao estado líquido",
+      "Fritura de um ovo com clara solidificada",
+      "Queima de um fósforo",
+      "Digestão de uma maçã"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As mudanças de estado físico (como vapor virando líquido) são transformações físicas reversíveis por resfriamento ou aquecimento."
+  },
+  {
+    "id": "cie-6-e-02",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI05",
+    "topic": "Célula e Osmose Introdutória",
+    "question": "Ao temperar uma salada de alface fresca com sal muito antes de comer, as folhas murcham e soltam água. Esse fenômeno ocorre por:",
+    "options": [
+      "Osmose (perda de água celular para o meio externo mais concentrado em sal)",
+      "Digestão da folha pelo azeite",
+      "Morte instantânea dos cloroplastos",
+      "Respiração anaeróbia da folha"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A osmose é o movimento passivo da água da região menos concentrada (interior da célula) para a mais concentrada (tempero com sal)."
+  },
+  {
+    "id": "cie-6-e-03",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI11",
+    "topic": "Fósseis e Estratigrafia",
+    "question": "Fósseis de animais marinhos antigos encontrados no topo de cadeias montanhosas altas, como os Andes, indicam que:",
+    "options": [
+      "Aquelas rochas se formaram no fundo do mar no passado e foram erguidas por forças tectônicas",
+      "Os animais marinhos escalavam montanhas",
+      "A montanha sempre esteve submersa",
+      "O solo choveu do espaço"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O soerguimento tectônico das placas empurra e dobra sedimentos marinhos antigos, elevando rochas com fósseis ao longo de milhões de anos."
+  },
+  {
+    "id": "cie-6-e-04",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI07",
+    "topic": "Controle da Frequência Cardíaca",
+    "question": "Durante uma corrida intensa, a frequência cardíaca e a respiração aumentam automaticamente para:",
+    "options": [
+      "Aumentar o suprimento de oxigênio e glicose aos músculos em atividade e eliminar o excesso de CO₂",
+      "Resfriar o cérebro apenas",
+      "Parar a digestão de alimentos",
+      "Evitar o suor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O organismo ajusta o débito cardíaco e a ventilação para suprir a alta demanda metabólica das fibras musculares."
+  },
+  {
+    "id": "cie-6-e-05",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI09",
+    "topic": "Lixiviação e Degradação do Solo",
+    "question": "A lixiviação do solo ocorre quando:",
+    "options": [
+      "A água da chuva em excesso lava e arrasta nutrientes solúveis para camadas profundas e lençóis freáticos",
+      "O solo fica extremamente ressecado",
+      "As minhocas produzem muito húmus",
+      "O vento deposita areia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A lavagem de nutrientes minerais solúveis pela água que percola empobrece o horizonte superficial do solo."
+  },
+  {
+    "id": "cie-6-e-06",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI04",
+    "topic": "Ciclo de Vida de Materiais",
+    "question": "A análise de ciclo de vida de uma embalagem sustentável deve considerar:",
+    "options": [
+      "Desde a extração da matéria-prima, fabricação e transporte até o descarte e reciclabilidade final",
+      "Apenas o custo de venda na prateleira",
+      "Apenas a cor da embalagem",
+      "Apenas se é brilhante"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A avaliação ecológica do berço ao túmulo analisa a pegada ambiental em todas as etapas da cadeia de suprimentos."
+  },
+  {
+    "id": "cie-6-e-07",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI14",
+    "topic": "Relógio de Sol e Astronomia Cultural",
+    "question": "Historicamente, povos ancestrais utilizavam a posição do Sol e as sombras para criar calendários agrícolas porque perceberam que:",
+    "options": [
+      "A trajetória do Sol no céu varia ciclicamente ao longo do ano marcando os períodos de plantio e colheita",
+      "O Sol parava no céu no inverno",
+      "As estrelas desapareciam a cada século",
+      "A Lua tinha sempre a mesma face"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A observação da variação periódica da altura solar e dos pontos de nascente e poente permitiu estruturar os primeiros calendários."
+  },
+  {
+    "id": "cie-6-e-08",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI08",
+    "topic": "Sinapses e Neurotransmissores Introdutórios",
+    "question": "A comunicação entre dois neurônios vizinhos em nosso cérebro ocorre através de pequenas fendas chamadas:",
+    "options": [
+      "Sinapses (com liberação de mensageiros químicos)",
+      "Tendões celulares",
+      "Articulações",
+      "Vasos capilares"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nas sinapses químicas, a terminação do axônio libera neurotransmissores que se ligam a receptores no dendrito do neurônio seguinte."
+  },
+  {
+    "id": "cie-6-e-09",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI03",
+    "topic": "Separação de Petróleo Bruto",
+    "question": "Na indústria petroquímica, os diferentes derivados do petróleo cru (gasolina, querosene, óleo diesel) são separados por:",
+    "options": [
+      "Destilação fracionada com base em diferentes pontos de ebulição",
+      "Filtração em tecido de algodão",
+      "Catação manual",
+      "Centrifugação térmica"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na torre de fracionamento, as frações de hidrocarbonetos se condensam em alturas diferentes conforme sua faixa de temperatura de ebulição."
+  },
+  {
+    "id": "cie-6-e-10",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI12",
+    "topic": "Estações do Ano Invertidas",
+    "question": "Quando no Hemisfério Sul é Solstício de Verão (por volta de 21 de dezembro), no Hemisfério Norte é:",
+    "options": [
+      "Solstício de Inverno",
+      "Equinócio de Outono",
+      "Solstício de Verão",
+      "Equinócio de Primavera"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Devido à inclinação do eixo terrestre, enquanto o hemisfério sul recebe radiação solar mais direta, o hemisfério norte recebe menos radiação."
+  },
+  {
+    "id": "cie-6-e-11",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI01",
+    "topic": "Soluções Aquosas Condutoras",
+    "question": "A água destilada pura conduz quase zero eletricidade, mas a água com sal dissolvido acende uma lâmpada em um circuito. Isso acontece porque:",
+    "options": [
+      "O sal dissolvido libera íons livres móveis (Na⁺ e Cl⁻) que transportam a corrente elétrica",
+      "O sal é um metal condutor sólido",
+      "A água ferve espontaneamente",
+      "O sal atrai elétrons do ar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Soluções iônicas possuem cargas elétricas livres que fecham o circuito condutor."
+  },
+  {
+    "id": "cie-6-e-12",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI06",
+    "topic": "Tecidos Especializados",
+    "question": "Qual tecido do corpo humano é responsável por revestir superfícies corporais externas e internas e formar glândulas?",
+    "options": [
+      "Tecido epitelial",
+      "Tecido conjuntivo ósseo",
+      "Tecido muscular estriado",
+      "Tecido nervoso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O tecido epitelial tem células justapostas com pouca substância intercelular, protegendo órgãos e secretando substâncias."
+  },
+  {
+    "id": "cie-6-e-13",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI11",
+    "topic": "Terremotos e Escala Richter",
+    "question": "O ponto no interior da crosta terrestre onde tem início a liberação repentina de energia de um terremoto é denominado:",
+    "options": [
+      "Hipocentro (ou foco sísmico)",
+      "Epicentro superficial",
+      "Cratera vulcânica",
+      "Falha gravitacional"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O hipocentro é a origem profunda da ruptura tectônica; o epicentro é o ponto na superfície verticalmente acima do hipocentro."
+  },
+  {
+    "id": "cie-6-e-14",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI10",
+    "topic": "Efeito Estufa Natural Benéfico",
+    "question": "Se a atmosfera da Terra não possuísse gases de efeito estufa naturais (como vapor de água e CO₂), a temperatura média global seria de cerca de -18°C. Isso demonstra que:",
+    "options": [
+      "O efeito estufa natural é essencial para manter a Terra aquecida e permitir a vida líquida",
+      "Os gases estufa devem ser completamente eliminados",
+      "A Terra não precisaria de Sol",
+      "A atmosfera não tem massa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O efeito estufa natural mantém a temperatura média global agradável em torno de 15°C; o problema ambiental atual é a sua intensificação antrópica."
+  },
+  {
+    "id": "cie-6-e-15",
+    "subject": "ciencias",
+    "grade": "6º ano",
+    "difficulty": "expert",
+    "xp": 80,
+    "bnccSkill": "EF06CI05",
+    "topic": "Microscopia e Descoberta Celular",
+    "question": "O cientista Robert Hooke cunhou o termo \"célula\" em 1665 ao observar ao microscópio fatias finas de:",
+    "options": [
+      "Cortiça (tecido vegetal morto de casca de árvore)",
+      "Gotas de sangue humano",
+      "Bactérias em água de lago",
+      "Músculo de rã"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hooke observou os pequenos compartimentos vazios de paredes celulares mortas na cortiça e os chamou de \"células\" (pequenas celas)."
+  }
+]
